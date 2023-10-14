@@ -562,75 +562,135 @@ textarea {
 /* Tablet styles */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .main-container {
-    margin: 2em 2em 5em 2em;
+    margin: 0em 1em 2em 1em;
+    padding: 0 1em 0 1em;
+    border-radius: 20px;
   }
 
-  .hero-content {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  .book-content {
+    background-color: #1a1a22;
     opacity: 0.8;
-    border-radius: 20px;
+    text-align: center;
+    padding: 2em 0 2em 0;
+    margin-bottom: 5em;
   }
 
   .bookImgContainer {
+    margin: 1em auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+  }
+
+  .bookCoverImg {
+    width: 600px;
+    height: 700px;
+    margin-bottom: 1em;
+  }
+
+  .paragraph-container {
+    text-align: center;
+    margin: 2em 2em 2em 2em;
   }
 
   .book-back {
-    font-size: 25px;
-  }
-
-  .artist-link {
     font-size: 20px;
-    margin-bottom: 2em;
   }
 
-  .about-container {
-    margin: 8em 0 16em 0;
-  }
+  .purchase h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0em 2em 1em 2em;
+}
 
-  .about-content {
-    margin: 0 2em 0em 2em;
-    padding: 2em;
-    opacity: 0.8;
-    border-radius: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .about-text {
-    font-size: 25px;
-  }
+.about-content-mobile {
+  opacity: 0.8;
+  text-align: center;
+  padding: 2em 1em 2em 1em;
+  margin-bottom: 32em;
+}
 
-  #headshot {
-    width: 320px;
-    height: 300px;
-    margin: 2em 0 2em 0;
-  }
+#auricle {
+  font-size: 30px;
+}
 
-  .author-text {
-    font-size: 25px;
-  }
+.about-text {
+  font-size: 20px;
+}
 
-  .artist-container {
-    margin: 8em 0 9em 0;
-  }
+.about-closing-mobile {
+  font-size: 25px;
+  font-weight: 700;
+  padding-top: 4em;
+  color: #ffc757;
+  font-family: 'Poppins';
+}
 
-  .artist-text {
-    font-size: 25px;
-  }
+.author-content-tablet {
+  opacity: 0.8;
+  text-align: center;
+  padding: 2em 0em 2em 0em;
+  margin-bottom: 5em;
+}
 
-  .contactCard {
-    margin: 8em 0 4em 0;
-  }
+.author-head {
+  font-size: 30px;
+}
 
-  #contact-form {
-    padding: 2rem;
-  }
+.author-text {
+  font-size: 20px;
+  padding: 0 1em 0 1em;
+}
+
+.book2-content-tablet {
+  opacity: 0.8;
+  text-align: center;
+  padding: 2em 0 2em 0;
+  margin-bottom: 5em;
+}
+
+.book2-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+}
+
+
+.book2-head {
+  font-size: 35px;
+}
+
+.contact-content {
+  margin-bottom: 15em;
+}
+
+.preview-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  width: 550px;
+}
+
+.artist-content-mobile {
+  opacity: 0.8;
+  text-align: center;
+  padding: 2em 0 2em 0;
+  margin-bottom: 5em;
+}
+
+.artist-head {
+  font-size: 30px;
+}
+
+.artist-text {
+  font-size: 20px;
+  padding: 0 1em 0 1em;
+}
 }
 
 

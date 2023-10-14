@@ -52,7 +52,7 @@ const MobileDropDown = () => {
         <div className='menu' ref={menuRef}>
           <ul className='menu-list'>
             <NavLink
-              to='/home'
+              to='/'
               className={({ isActive }) =>
                 isActive ? 'menuLink-active' : 'menuLink'
               }

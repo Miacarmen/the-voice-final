@@ -8,7 +8,7 @@ const AuthorBio = () => {
           Richard E. Carmen
         </span>{' '}
         holds three academic degrees in mainstream science with a Doctor of
-        Audiology from the Kirksville College of Osteopathic Medicine. Spanning
+        Audiology (Au.D) from the Kirksville College of Osteopathic Medicine. Spanning
         over half a century he has served the deaf, deaf-blind, hard of hearing
         and underprivileged. He{"'"}s been an award-winning author with over 50
         feature articles, cover stories, chapters, books and peer-reviewed
@@ -19,7 +19,7 @@ const AuthorBio = () => {
         <span className='highlight'> The Saturday Evening Post</span>; and op-ed
         pieces in industry publications and on
         <span className='highlight'> CBS 60 Minutes</span>. Richard has been a
-        consultant to state and federal governments, participated in think- tank
+        consultant to state and federal governments, participated in think-tank
         forums and served on eight national boards as editorial consultant
         and/or adviser including the acclaimed
         <span className='highlight2'> Better Hearing Institute</span>.
@@ -34,13 +34,12 @@ const AuthorBio = () => {
         . Through his publishing endeavors and research he teamed up with over a
         hundred scholars from around the world with scientists from such
         renowned U.S. institutions as Harvard, Johns Hopkins, Children{"'"}s
-        Hospital, Mayo Clinic and NIH. His most successful book broke a record
-        in the hearing industry
+        Hospital, Mayo Clinic and NIH. His most successful book topped
         <span className='highlight'>
           {' '}
-          selling more than a million copies
+          a million copies
         </span>{' '}
-        in all editions. Through Guidepoint Global, Inc. he has consulted with
+        in all editions distributed within the hearing industry alone. Through Guidepoint Global, LLC he has consulted with
         Fortune 500 companies on mergers and acquisitions.
       </p>
       <p className='pt-5 author-text'>
