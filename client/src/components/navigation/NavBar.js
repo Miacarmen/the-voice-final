@@ -39,6 +39,15 @@ const NavBar = () => {
           Other&nbsp;Books
         </NavLink>
         <NavLink
+          to='/testimonies'
+          id='testimonies'
+          className={({ isActive }) =>
+            isActive ? 'navLink-active' : 'navLink'
+          }
+        >
+          Testimonials
+        </NavLink>
+        <NavLink
           to='/contact'
           className={({ isActive }) =>
             isActive ? 'navLink-active' : 'navLink'

@@ -96,6 +96,18 @@ const MobileDropDown = () => {
             </li>
             <li>
               <NavLink
+                to='/testimonials'
+                id='testimonials'
+                className={({ isActive }) =>
+                  isActive ? 'menuLink-active' : 'menuLink'
+                }
+                onClick={() => setShowMenu(!showMenu)}
+              >
+                Testimonials
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
                 to='/contact'
                 className={({ isActive }) =>
                   isActive ? 'menuLink-active' : 'menuLink'

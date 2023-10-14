@@ -202,7 +202,7 @@ body {
 /* CONTACT PAGE */
 
 .contact-content {
-  margin: 2em 0 0 0;
+  margin: 2em 0 5em 0;
   padding: 5em;
   opacity: 0.8;
   border-radius: 20px;
@@ -256,6 +256,20 @@ textarea {
   padding-top: 2em;
 }
 
+/* Testimonials */
+
+.testimonial-container {
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-container h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #ffc757;
+}
 /* FOOTER */
 
 .footerHead {
@@ -362,6 +376,7 @@ textarea {
   }
 
   .contact-content {
+    margin-bottom: 5em;
     padding: 2em;
   }
 

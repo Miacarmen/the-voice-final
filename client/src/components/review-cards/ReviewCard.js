@@ -18,7 +18,7 @@ const ReviewCard = () => {
           <span className='quoteHighlight'>J. Allen Hynek, Ph.D.</span>,
         </p>
         <p className='quoteExtra'>
-          Author of{' '}
+          and Author of{' '}
           <span className='italic'>
             Dragon in the Sky: Prophecy from the Stars
           </span>
