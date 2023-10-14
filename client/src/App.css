@@ -121,7 +121,7 @@ body {
 /*  HOME PAGE  */
 
 .main-container {
-  margin: 2em 10em 5em 12em;
+  margin: 2em 10em 2em 12em;
   padding: 0 2em 0 2em;
   border-radius: 20px;
   display: flex;
@@ -235,7 +235,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 3em 0 7em 0;
+  margin: 2em 0 1em 0;
 }
 
 .card-container {
@@ -261,8 +261,10 @@ body {
   font-style: italic;
   color: #ffc757;
   font-size: 20px;
-  padding: 2em 0 0em 0;
+  padding: 0.5em 0 0em 0;
+  border-bottom: 1px solid #ffffff;
 }
+
 
 .quoteHighlight {
   font-style: italic;
@@ -274,7 +276,10 @@ body {
   font-style: italic;
 }
 
-
+.line {
+  width: 25%;
+  margin-top: 2em;
+}
 
 /* ABOUT PAGE  */
 
@@ -559,6 +564,7 @@ textarea {
   color: #6a6767;
 }
 
+
 /* Tablet styles */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .main-container {
@@ -572,7 +578,7 @@ textarea {
     opacity: 0.8;
     text-align: center;
     padding: 2em 0 2em 0;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
   }
 
   .bookImgContainer {

@@ -19,7 +19,7 @@ const Footer = () => {
           </a>
         </p>
       
-        <p>Copyright © 2023 - All rights reserved by Auricle Ink Publishers</p>
+        <p>Copyright © 2023 - All rights reserved by Auricle Books</p>
       </div>
     </div>
   );
