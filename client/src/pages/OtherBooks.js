@@ -3,7 +3,7 @@ import { useMediaQuery } from 'react-responsive';
 
 import { Link } from 'react-router-dom';
 
-import Mockup from '../assets/mockup2.png';
+// import Mockup from '../assets/mockup2.png';
 
 const OtherBooks = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 }); // For mobile devices
@@ -164,7 +164,7 @@ const OtherBooks = () => {
 
               <figure className='book2-image m-5'>
                 <img
-                  src={Mockup}
+                  src='https://i.imgur.com/sMVOF9v.png'
                   alt='sedona awakenings'
                   style={{ width: 600, height: 500 }}
                   id='bookCoverImg'
