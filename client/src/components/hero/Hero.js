@@ -2,8 +2,6 @@ import React from 'react';
 import { useMediaQuery } from 'react-responsive';
 import { Link } from 'react-router-dom';
 
-// import BookCover from '../../assets/mockup1.png';
-
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 }); // For mobile devices
   const isTablet = useMediaQuery({ minWidth: 769, maxWidth: 1024 }); // For iPad devices
