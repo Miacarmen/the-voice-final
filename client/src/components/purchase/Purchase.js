@@ -1,9 +1,13 @@
 import React from 'react';
 
+import './purchase.styles.css';
+
 const Purchase = () => {
   return (
     <div className='purchase pb-10'>
-      <h2 className='purchase-head pb-4'><span className='limited'>Limited</span> Quantity Available for Preorder</h2>
+      <h2 className='purchase-head pb-4'>
+        <span className='limited'>Limited</span> Quantity Available for Preorder
+      </h2>
       <a href='https://buy.stripe.com/9AQcNd3HS8S08RWcMN' alt='stripe'>
         <button className='btn shopBtn bg-accent '>PRE-ORDER NOW</button>
       </a>

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './review-card-styles.css';
+
 const ReviewCard = () => {
   return (
     <div>
@@ -45,7 +47,7 @@ const ReviewCard = () => {
         </p>
         <p className='quoteAuthor'>Rick Hurst, Actor</p>
         {/* <p className='authorTitle'>Actor</p> */}
-        <p className='quoteExtra'>The Duke{"'"}s of Hazard (1980's) </p>
+        <p className='authorTitle'>The Duke{"'"}s of Hazard (1980's) </p>
         {/* <hr className='line' /> */}
       </div>
 

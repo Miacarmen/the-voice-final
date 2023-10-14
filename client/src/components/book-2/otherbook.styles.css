@@ -1,0 +1,124 @@
+/* OTHER BOOKS PAGE */
+
+.book2-content {
+  padding: 5em 0 2em 5em;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+
+.book2-back {
+  font-size: 22px;
+  color: #ffffff;
+  font-family: 'Baskerville Medium';
+}
+
+.book2-head {
+  font-size: 45px;
+  font-weight: 700;
+  color: #ffc757;
+  margin-bottom: 2rem;
+}
+
+.book2-image {
+  display: flex;
+  justify-content: center;
+}
+
+.book2-control {
+  margin-top: 2rem;
+  /* display: flex;
+    justify-content: center; */
+}
+
+.orderBtn {
+  border: 1px solid #ffc757;
+  color: #ffc757;
+  border-radius: 30px;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+}
+
+.orderBtn:hover {
+  background-color: #383838;
+  border: none;
+}
+
+.book2-control-bottom {
+  display: flex;
+  justify-content: center;
+  padding: 5em 0em 5em 0em;
+}
+
+.orderBtn-bottom {
+  color: #1a1a22;
+  border-radius: 30px;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+}
+
+.orderBtn-bottom:hover {
+  background-color: #fcae04;
+  border: none;
+}
+
+.figure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+/* Tablet styles */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .book2-content-tablet {
+    opacity: 0.8;
+    text-align: center;
+    padding: 2em 0 2em 0;
+    margin-bottom: 5em;
+  }
+
+  .book2-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+
+  .book2-head {
+    font-size: 35px;
+  }
+
+  .book2-back {
+    font-size: 24px;
+  }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  .book2-content-mobile {
+    opacity: 0.8;
+    text-align: center;
+    padding: 2em 0 2em 0;
+    margin-bottom: 5em;
+  }
+
+  .book2-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+
+  .book2-head {
+    font-size: 30px;
+  }
+
+  .book2-control-bottom {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0em 6em 0em;
+  }
+}

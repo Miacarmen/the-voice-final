@@ -34,7 +34,6 @@ const FlipBook2 = () => {
     'https://i.imgur.com/OeLTWv3.jpg',
     'https://i.imgur.com/uuHygi7.jpg',
     'https://i.imgur.com/yIpytLt.jpg',
-
   ];
 
   const totalPages = ImageLinks.length;

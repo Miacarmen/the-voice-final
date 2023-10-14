@@ -1,0 +1,45 @@
+/* PURCHASE COMPONENT */
+
+.purchase {
+  display: block;
+  text-align: center;
+}
+
+.purchase h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.shopBtn {
+  border: 1px solid #fcae04;
+  border-radius: 30px;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+}
+
+.shopBtn:hover {
+  background-color: #fcae04;
+  border: 1px solid #ffc757;
+}
+
+/* Tablet styles */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .purchase h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 2em 2em 1em 2em;
+  }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  .purchase h2 {
+    font-size: 35px;
+    font-weight: 700;
+  }
+
+  .shopBtn {
+    margin-bottom: 2em;
+  }
+}

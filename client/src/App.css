@@ -105,7 +105,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 
 .menuLink {
@@ -190,7 +189,6 @@ body {
   flex-direction: column;
 }
 
-
 .preview-btn {
   margin-top: 2em;
   border: 1px solid #ffc757;
@@ -199,291 +197,6 @@ body {
   height: 50px;
   text-align: center;
   color: #ffc757;
-}
-
-
-/* PURCHASE COMPONENT */
-
-.purchase {
-  display: block;
-  text-align: center;
-}
-
-.purchase h2 {
-  font-size: 45px;
-  font-weight: 700;
-}
-
-.shopBtn {
-  border: 1px solid #fcae04;
-  border-radius: 30px;
-  width: 300px;
-  height: 50px;
-  text-align: center;
-}
-
-.shopBtn:hover {
-  background-color: #fcae04;
-  border: 1px solid #ffc757;
-}
-
-
-/* REVIEWS */
-
-.review-container {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2em 0 1em 0;
-}
-
-.card-container {
-  margin: 0em 8em 0em 8em;
-  padding: 5em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0.8;
-  border-radius: 20px;
-  text-align: center;
-}
-
-.quoteText {
-  font-size: 25px;
-  font-weight: 700;
-  line-height: 30px;
-  font-family: 'Fira Sans Medium';
-}
-
-.quoteAuthor {
-  font-weight: 700;
-  font-style: italic;
-  color: #ffc757;
-  font-size: 20px;
-  padding: 0.5em 0 0em 0;
-  border-bottom: 1px solid #ffffff;
-}
-
-
-.quoteHighlight {
-  font-style: italic;
-  color: #ffc757;
-  font-size: 17px;
-}
-
-#highlight-2 {
-  font-style: italic;
-}
-
-.line {
-  width: 25%;
-  margin-top: 2em;
-}
-
-/* ABOUT PAGE  */
-
-.about-content {
-  margin: 0em 5em 5em 5em;
-  padding: 10em 5em 10em 5em;
-  opacity: 0.8;
-  border-radius: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-#auricle {
-  font-weight: 700;
-  font-style: italic;
-  font-size: 30px;
-  color: #ffc757;
-  font-family: 'Poppins';
-}
-
-#authorName {
-  font-weight: 700;
-  font-style: italic;
-  color: #ffc757;
-  font-family: 'Poppins';
-}
-
-#not {
-  font-weight: 900;
-}
-
-.about-text {
-  font-size: 24px;
-  font-family: 'Baskerville Medium';
-}
-
-.about-closing {
-  font-size: 28px;
-  font-weight: 700;
-  padding-top: 4em;
-  color: #ffc757;
-  font-family: 'Poppins';
-}
-
-/* AUTHOR PAGE */
-
-.author-content {
-  margin: 0em 5em 5em 5em;
-  padding: 5em 5em 5em 5em;
-  opacity: 0.8;
-  border-radius: 20px;
-  justify-content: center;
-  align-items: center;
-  line-height: 40px;
-  text-align: center;
-}
-
-.author-head {
-  justify-items: left;
-  font-size: 45px;
-  font-weight: 700;
-  color: #ffc757;
-}
-
-.author-text {
-  font-size: 22px;
-  font-family: 'Baskerville Medium';
-}
-
-#author-name {
-  font-weight: 700;
-  font-size: 30px;
-  color: #ffc757;
-}
-
-.highlight {
-  font-weight: 700;
-  font-style: italic;
-  color: #ffc757;
-}
-.highlight2{
-  font-weight: 700;
-  color: #ffc757;
-}
-.img-container {
-  display: inline-block;
-  padding: 2em 0 2em 0;
-}
-
-/* OTHER BOOKS PAGE */
-
-.book2-content {
-  padding: 5em 0 2em 5em;
-  opacity: 0.8;
-  border-radius: 20px;
-}
-
-.book2-back {
-  font-size: 22px;
-  color: #ffffff;
-  font-family: 'Baskerville Medium';
-}
-
-.book2-head {
-  font-size: 45px;
-  font-weight: 700;
-  color: #ffc757;
-  margin-bottom: 2rem;
-}
-
-.book2-control {
-  margin-top: 2rem;
-}
-
-.book2-image {
-  display: flex;
-  justify-content: center;
-}
-
-.orderBtn {
-  border: 1px solid #ffc757;
-  color: #ffc757;
-  border-radius: 30px;
-  width: 300px;
-  height: 50px;
-  text-align: center;
-}
-
-.orderBtn:hover {
-  background-color: #383838;
-  border: none;
-}
-
-.figure-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-  border: 1px solid red;
-}
-
-/* ARTIST PAGE */
-
-.artist-container {
-  padding: 0 0 9em 0;
-}
-
-.artist-content {
-  margin: 0em 5em 0em 5em;
-  padding: 5em 5em 5em 5em;
-  opacity: 0.8;
-  border-radius: 20px;
-  justify-content: center;
-  align-items: center;
-  line-height: 40px;
-  text-align: center;
-}
-
-.artist-head {
-  justify-items: left;
-  font-size: 45px;
-  font-weight: 700;
-  color: #ffc757;
-}
-
-.artist-text {
-  font-size: 22px;
-  font-family: 'Baskerville Medium';
-}
-
-#artist-name {
-  font-weight: 700;
-  font-style: italic;
-  font-size: 30px;
-  color: #ffc757;
-}
-
-#book-highlight {
-  font-weight: 700;
-  font-style: italic;
-  font-size: 25px;
-  color: #ffc757;
-}
-
-#web-link {
-  color: #fcae04;
-}
-
-#musician-name {
-  font-weight: 700;
-  font-style: italic;
-  font-size: 25px;
-  color: #ffc757;
-}
-
-#music-link {
-  color: #fcae04;
-}
-
-#music-link:hover {
-  color: #6a6767;
 }
 
 /* CONTACT PAGE */
@@ -537,7 +250,6 @@ textarea {
   background-color: #fcae04;
 }
 
-
 .submit-message {
   text-align: center;
   font-weight: 600;
@@ -563,7 +275,6 @@ textarea {
 #webLink:hover {
   color: #6a6767;
 }
-
 
 /* Tablet styles */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -598,108 +309,49 @@ textarea {
   .paragraph-container {
     text-align: center;
     margin: 2em 2em 2em 2em;
+    font-size: 30px;
   }
 
   .book-back {
     font-size: 20px;
   }
 
-  .purchase h2 {
-  font-size: 40px;
-  font-weight: 700;
-  margin: 0em 2em 1em 2em;
+  .book2-content-tablet {
+    opacity: 0.8;
+    text-align: center;
+    padding: 2em 0 2em 0;
+    margin-bottom: 5em;
+  }
+
+  .book2-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+
+  .book2-head {
+    font-size: 35px;
+  }
+
+  .artist-link {
+    font-size: 20px;
+  }
+
+  .preview-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container {
+    width: 550px;
+  }
+
+  .contact-content {
+    margin-bottom: 15em;
+  }
 }
-
-.about-content-mobile {
-  opacity: 0.8;
-  text-align: center;
-  padding: 2em 1em 2em 1em;
-  margin-bottom: 32em;
-}
-
-#auricle {
-  font-size: 30px;
-}
-
-.about-text {
-  font-size: 20px;
-}
-
-.about-closing-mobile {
-  font-size: 25px;
-  font-weight: 700;
-  padding-top: 4em;
-  color: #ffc757;
-  font-family: 'Poppins';
-}
-
-.author-content-tablet {
-  opacity: 0.8;
-  text-align: center;
-  padding: 2em 0em 2em 0em;
-  margin-bottom: 5em;
-}
-
-.author-head {
-  font-size: 30px;
-}
-
-.author-text {
-  font-size: 20px;
-  padding: 0 1em 0 1em;
-}
-
-.book2-content-tablet {
-  opacity: 0.8;
-  text-align: center;
-  padding: 2em 0 2em 0;
-  margin-bottom: 5em;
-}
-
-.book2-image-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: auto;
-}
-
-
-.book2-head {
-  font-size: 35px;
-}
-
-.contact-content {
-  margin-bottom: 15em;
-}
-
-.preview-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.image-container {
-  width: 550px;
-}
-
-.artist-content-mobile {
-  opacity: 0.8;
-  text-align: center;
-  padding: 2em 0 2em 0;
-  margin-bottom: 5em;
-}
-
-.artist-head {
-  font-size: 30px;
-}
-
-.artist-text {
-  font-size: 20px;
-  padding: 0 1em 0 1em;
-}
-}
-
-
 
 /* Mobile styles */
 @media screen and (max-width: 768px) {
@@ -756,100 +408,4 @@ textarea {
   .book-back {
     font-size: 20px;
   }
-
-  .purchase h2 {
-  font-size: 40px;
-  font-weight: 700;
 }
-
-  .about-content-mobile {
-    opacity: 0.8;
-    text-align: center;
-    padding: 2em 1em 2em 1em;
-    margin-bottom: 5em;
-  }
-
-  #auricle {
-    font-size: 30px;
-  }
-
-  .about-text {
-    font-size: 20px;
-  }
-
-  .about-closing-mobile {
-    font-size: 25px;
-    font-weight: 700;
-    padding-top: 4em;
-    color: #ffc757;
-    font-family: 'Poppins';
-  }
-
-  .author-content-mobile {
-    opacity: 0.8;
-    text-align: center;
-    padding: 2em 0em 2em 0em;
-    margin-bottom: 5em;
-  }
-
-  .author-head {
-    font-size: 30px;
-  }
-
-  .author-text {
-    font-size: 20px;
-    padding: 0 1em 0 1em;
-  }
-
-  .book2-content-mobile {
-    opacity: 0.8;
-    text-align: center;
-    padding: 2em 0 2em 0;
-    margin-bottom: 5em;
-  }
-
-  .book2-image-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: auto;
-  }
-
-  .book2-head {
-    font-size: 30px;
-  }
-
-  .artist-content-mobile {
-    opacity: 0.8;
-    text-align: center;
-    padding: 2em 0 2em 0;
-    margin-bottom: 5em;
-  }
-
-  .artist-head {
-    font-size: 30px;
-  }
-
-  .artist-text {
-    font-size: 20px;
-    padding: 0 1em 0 1em;
-  }
-
-  .review-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4em;
-  }
-
-  .card-container {
-    margin: 0em 0em 7em 0em;
-    padding: 1em 2em 1em 2em;
-  }
-
-
-}
-
-
-

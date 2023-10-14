@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './authorBio.styles.css';
+
 const AuthorBio = () => {
   return (
     <div>
@@ -8,12 +10,12 @@ const AuthorBio = () => {
           Richard E. Carmen
         </span>{' '}
         holds three academic degrees in mainstream science with a Doctor of
-        Audiology (Au.D) from the Kirksville College of Osteopathic Medicine. Spanning
-        over half a century he has served the deaf, deaf-blind, hard of hearing
-        and underprivileged. He{"'"}s been an award-winning author with over 50
-        feature articles, cover stories, chapters, books and peer-reviewed
-        scientific papers published within and outside the hearing industry. His
-        work has appeared in top medical periodicals such as the
+        Audiology (Au.D) from the Kirksville College of Osteopathic Medicine.
+        Spanning over half a century he has served the deaf, deaf-blind, hard of
+        hearing and underprivileged. He{"'"}s been an award-winning author with
+        over 50 feature articles, cover stories, chapters, books and
+        peer-reviewed scientific papers published within and outside the hearing
+        industry. His work has appeared in top medical periodicals such as the
         <span className='highlight'> American Journal of Otology</span>; in the
         long-running eminent magazine
         <span className='highlight'> The Saturday Evening Post</span>; and op-ed
@@ -24,6 +26,7 @@ const AuthorBio = () => {
         and/or adviser including the acclaimed
         <span className='highlight2'> Better Hearing Institute</span>.
       </p>
+      <br />
       <p className='pt-5 author-text'>
         Before creating his own book publishing company in 1997, he authored
         books with
@@ -35,13 +38,12 @@ const AuthorBio = () => {
         hundred scholars from around the world with scientists from such
         renowned U.S. institutions as Harvard, Johns Hopkins, Children{"'"}s
         Hospital, Mayo Clinic and NIH. His most successful book topped
-        <span className='highlight'>
-          {' '}
-          a million copies
-        </span>{' '}
-        in all editions distributed within the hearing industry alone. Through Guidepoint Global, LLC he has consulted with
-        Fortune 500 companies on mergers and acquisitions.
+        <span className='highlight'> a million copies</span> in all editions
+        distributed within the hearing industry alone. Through Guidepoint
+        Global, LLC he has consulted with Fortune 500 companies on mergers and
+        acquisitions.
       </p>
+      <br />
       <p className='pt-5 author-text'>
         By the end of 1984, he was audiologic team leader in a collaborative
         study with otolaryngologists pioneering a new methodology for diagnosing

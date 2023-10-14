@@ -1,11 +1,8 @@
 import React, { useState } from 'react';
 
-import { Link } from 'react-router-dom';
-
 import './flipBook.styles.css';
 
 const FlipBook = () => {
-
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const ImageLinks = [
@@ -88,7 +85,7 @@ const FlipBook = () => {
           </button>
         </div>
         <div className='btn-container'>
-        <a href='https://buy.stripe.com/9AQcNd3HS8S08RWcMN' alt='stripe'>
+          <a href='https://buy.stripe.com/9AQcNd3HS8S08RWcMN' alt='stripe'>
             <button className=' btn preview-btn preOrderBtn'>PRE-ORDER</button>
           </a>
         </div>

@@ -243,14 +243,11 @@ const Hero = () => {
                 </figure>
               </div>
               {/* <div className='btn-container col-span-4'> */}
-                <a
-                  href='https://buy.stripe.com/9AQcNd3HS8S08RWcMN'
-                  alt='stripe'
-                >
-                  <button className='btn shopBtn bg-accent mt-3'>
-                    PRE-ORDER NOW
-                  </button>
-                </a>
+              <a href='https://buy.stripe.com/9AQcNd3HS8S08RWcMN' alt='stripe'>
+                <button className='btn shopBtn bg-accent mt-3'>
+                  PRE-ORDER NOW
+                </button>
+              </a>
               {/* </div> */}
             </div>
           </div>

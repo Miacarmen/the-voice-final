@@ -13,8 +13,6 @@ const Author = () => {
     <div>
       {isMobile ? (
         <>
-          {/* Mobile Content */}
-
           <div>
             <div className='author-content-mobile bg-base-100'>
               <h2 className='author-head'>About the Author</h2>
@@ -33,7 +31,7 @@ const Author = () => {
       ) : isTablet ? (
         // Tablet Content
         <>
-         <div>
+          <div>
             <div className='author-content-tablet bg-base-100'>
               <h2 className='author-head'>About the Author</h2>
               <div className='img-container'>

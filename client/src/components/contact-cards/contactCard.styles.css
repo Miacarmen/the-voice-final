@@ -1,0 +1,56 @@
+/* CONTACT PAGE */
+
+.contact-content {
+  margin: 2em 0 0 0;
+  padding: 5em;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+
+.formHeader {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffc757;
+}
+
+.form-field {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+label {
+  display: block;
+  padding-bottom: 2px;
+}
+
+.form-group input {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 7px;
+  color: #1e1e1e;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 5px;
+  padding: 7px;
+  color: #1e1e1e;
+}
+
+.contactBtn:hover {
+  background-color: #fcae04;
+}
+
+.submit-message {
+  text-align: center;
+  font-weight: 600;
+  padding-top: 2em;
+}

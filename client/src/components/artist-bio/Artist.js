@@ -1,6 +1,8 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
 
+import './artistBio.styles.css';
+
 const Artist = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 }); // For mobile devices
   const isTablet = useMediaQuery({ minWidth: 769, maxWidth: 1024 }); // For iPad devices
@@ -33,7 +35,7 @@ const Artist = () => {
               here
             </a>
           </p>
-          <br/>
+          <br />
           <p className='artist-text pt-7'>
             You may also want to listen to his partner{' '}
             <span id='musician-name' className='px-1'>
@@ -56,8 +58,9 @@ const Artist = () => {
         </>
       ) : isTablet ? (
         // Tablet Content
+
         <>
-        <h2 className='artist-head pb-10'>About the Artist</h2>
+          <h2 className='artist-head pb-10'>About the Artist</h2>
           <p className='artist-text'>
             <span id='artist-name' className='pr-1'>
               Alexander Volkov
@@ -81,7 +84,7 @@ const Artist = () => {
               here
             </a>
           </p>
-          <br/>
+          <br />
           <p className='artist-text pt-7'>
             You may also want to listen to his partner{' '}
             <span id='musician-name' className='px-1'>
@@ -131,7 +134,7 @@ const Artist = () => {
                 here
               </a>
             </p>
-            <br/>
+            <br />
             <p className='artist-text'>
               You may also want to listen to his partner{' '}
               <span id='musician-name' className='px-1'>

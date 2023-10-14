@@ -105,7 +105,7 @@ const ContactCard = () => {
       .send(serviceId, templateId, templateParams, publicKey)
       .then((response) => {
         console.log('Email sent successfully', response);
-        
+
         // Update submitMessage state to show success message
         setSubmitMessage('Message successfully sent!');
 
