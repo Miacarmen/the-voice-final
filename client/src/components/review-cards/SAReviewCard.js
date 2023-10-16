@@ -1,13 +1,17 @@
-import React from 'react';
-
+import React, { useEffect } from 'react';
 import { AiFillStar } from 'react-icons/ai';
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import './review-card-styles.css';
 import './review-card-styles.css';
 
 const SAReviewCard = () => {
+  useEffect(() => {
+    Aos.init({ duration: 800, easing: 'ease-in' });
+  }, []);
   return (
     <div>
-      <div className='card-container' id='review-1'>
+      <div className='card-container' id='review-1' data-aos='fade-up'>
         <p className='SA-Quote-Text'>
           "A wonderful book about following your heart. It will especially
           resonate with you if you have visited, considered visiting or have
@@ -22,18 +26,18 @@ const SAReviewCard = () => {
         <p className='quoteAuthor'>Michael Norwood</p>
         {/* <p className='rating'>5.0 out of 5 stars "A Call of the Soul"</p> */}
         <div className='rating rating-xs'>
-         <AiFillStar className='star' ></AiFillStar>
-         <AiFillStar className='star' ></AiFillStar>
-         <AiFillStar className='star' ></AiFillStar>
-         <AiFillStar className='star' ></AiFillStar>
-         <AiFillStar className='star' ></AiFillStar>
+          <AiFillStar className='star'></AiFillStar>
+          <AiFillStar className='star'></AiFillStar>
+          <AiFillStar className='star'></AiFillStar>
+          <AiFillStar className='star'></AiFillStar>
+          <AiFillStar className='star'></AiFillStar>
         </div>
         <p className='rating'>5.0 out of 5 stars "A Call of the Soul"</p>
         <p className='amazon-title italic'>Review from Amazon</p>
         {/* <hr className='line' /> */}
       </div>
 
-      <div className='card-container' id='review-2'>
+      <div className='card-container' id='review-2' data-aos='fade-up'>
         <p className='SA-Quote-Text'>
           "One thing that many residents have in common is a fantastic story
           about how they came to live in this awe inspiring town. Richard Carmen
@@ -43,18 +47,18 @@ const SAReviewCard = () => {
         </p>
         <p className='quoteAuthor'>Sheri L.</p>
         <div className='rating rating-xs'>
-         <AiFillStar className='star' ></AiFillStar>
-         <AiFillStar className='star' ></AiFillStar>
-         <AiFillStar className='star' ></AiFillStar>
-         <AiFillStar className='star' ></AiFillStar>
-         <AiFillStar className='star' ></AiFillStar>
+          <AiFillStar className='star'></AiFillStar>
+          <AiFillStar className='star'></AiFillStar>
+          <AiFillStar className='star'></AiFillStar>
+          <AiFillStar className='star'></AiFillStar>
+          <AiFillStar className='star'></AiFillStar>
         </div>
         <p className='rating'>5.0 out of 5 stars "Inspiring Stories</p>
         <p className='amazon-title italic'>Review from Amazon</p>
         {/* <hr className='line' /> */}
       </div>
 
-      <div className='card-container' id='review-3'>
+      <div className='card-container' id='review-3' data-aos='fade-up'>
         <p className='SA-Quote-Text'>
           "A fascinating collection of personal memoirs celebrating the human
           experience, distinctly characterized by each writer's response to a
@@ -70,11 +74,11 @@ const SAReviewCard = () => {
         </p>
         <p className='quoteAuthor'>M Timms</p>
         <div className='rating rating-xs'>
-         <AiFillStar className='star' ></AiFillStar>
-         <AiFillStar className='star' ></AiFillStar>
-         <AiFillStar className='star' ></AiFillStar>
-         <AiFillStar className='star' ></AiFillStar>
-         <AiFillStar className='star' ></AiFillStar>
+          <AiFillStar className='star'></AiFillStar>
+          <AiFillStar className='star'></AiFillStar>
+          <AiFillStar className='star'></AiFillStar>
+          <AiFillStar className='star'></AiFillStar>
+          <AiFillStar className='star'></AiFillStar>
         </div>
         <p className='rating'>5.0 out of 5 stars "Evocative Portraits" </p>
         <p className='amazon-title italic'>Review from Amazon</p>

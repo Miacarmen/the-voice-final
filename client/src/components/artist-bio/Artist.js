@@ -43,7 +43,7 @@ const Artist = () => {
             </span>{' '}
             heartfelt <span className='highlight px-1'>All Souls Lullaby</span>{' '}
             composition to a moving collage of Alexander{"'"}s beautiful oil
-            painting, which can be found{' '}
+            paintings, which can be found{' '}
             <a
               href='https://www.youtube.com/watch?v=dhLchd7ajAE'
               alt='composition'
@@ -92,7 +92,7 @@ const Artist = () => {
             </span>{' '}
             heartfelt <span className='highlight px-1'>All Souls Lullaby</span>{' '}
             composition to a moving collage of Alexander{"'"}s beautiful oil
-            painting, which can be found{' '}
+            paintings, which can be found{' '}
             <a
               href='https://www.youtube.com/watch?v=dhLchd7ajAE'
               alt='composition'
@@ -143,7 +143,7 @@ const Artist = () => {
               heartfelt{' '}
               <span className='highlight px-1'>All Souls Lullaby</span>{' '}
               composition to a moving collage of Alexander{"'"}s beautiful oil
-              painting, which can be found{' '}
+              paintings, which can be found{' '}
               <a
                 href='https://www.youtube.com/watch?v=dhLchd7ajAE'
                 alt='composition'

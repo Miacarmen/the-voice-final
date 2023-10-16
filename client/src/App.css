@@ -126,7 +126,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 0.5s ease-in-out;
 }
+
 
 .hero-content {
   padding: 1em 0 2em 5em;
@@ -259,7 +261,7 @@ textarea {
 /* Testimonials */
 
 .testimonial-container {
-  height: 550px;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -365,6 +367,10 @@ textarea {
   .contact-content {
     margin-bottom: 15em;
   }
+
+  .testimonial-container {
+    height: 80vh;
+  }
 }
 
 /* Mobile styles */
@@ -425,7 +431,7 @@ textarea {
   }
 
   .testimonial-container {
-    height: 550px;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;

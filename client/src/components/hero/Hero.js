@@ -32,9 +32,8 @@ const Hero = () => {
 
             <div className='paragraph-container'>
               <p className='book-back pb-5'>
-                Richard E. Carmen is a Doctor of Audiology and a well-published
-                research scientist. After 40 years of silence he{"'"}s stepping
-                forward with an astounding{' '}
+                Richard E. Carmen is a well-published Doctor of Audiology. After 40 years of
+                silence he{"'"}s stepping forward with an astounding{' '}
                 <span className='hero-highlight pl-1'>
                   {' '}
                   factual extraterrestrial contact and Divine intervention
@@ -108,9 +107,8 @@ const Hero = () => {
 
             <div className='paragraph-container'>
               <p className='book-back pb-5'>
-                Richard E. Carmen is a Doctor of Audiology and a well-published
-                research scientist. After 40 years of silence he{"'"}s stepping
-                forward with an astounding{' '}
+                Richard E. Carmen is a well-published Doctor of Audiology. After 40 years of
+                silence he{"'"}s stepping forward with an astounding{' '}
                 <span className='hero-highlight pl-1'>
                   {' '}
                   factual extraterrestrial contact and Divine intervention
@@ -170,9 +168,8 @@ const Hero = () => {
 
                 <div className='paragraph-container'>
                   <p className='book-back pb-5'>
-                    Richard E. Carmen is a Doctor of Audiology and a
-                    well-published research scientist. After 40 years of silence
-                    he{"'"}s stepping forward with an astounding{' '}
+                    Richard E. Carmen is a well-published Doctor of Audiology. After 40 years
+                    of silence he{"'"}s stepping forward with an astounding{' '}
                     <span className='hero-highlight pl-1'>
                       {' '}
                       factual extraterrestrial contact and Divine intervention
