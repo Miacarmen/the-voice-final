@@ -39,8 +39,8 @@ const NavBar = () => {
           Other&nbsp;Books
         </NavLink>
         <NavLink
-          to='/testimonies'
-          id='testimonies'
+          to='/testimonials'
+          id='testimonials'
           className={({ isActive }) =>
             isActive ? 'navLink-active' : 'navLink'
           }

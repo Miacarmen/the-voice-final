@@ -423,4 +423,17 @@ textarea {
   .book-back {
     font-size: 20px;
   }
+
+  .testimonial-container {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .testimonial-container h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffc757;
+  }
 }

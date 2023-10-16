@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { AiFillStar } from 'react-icons/ai';
+
 import './review-card-styles.css';
 
 const SAReviewCard = () => {
@@ -18,6 +20,14 @@ const SAReviewCard = () => {
           the true magic of creation every day."
         </p>
         <p className='quoteAuthor'>Michael Norwood</p>
+        {/* <p className='rating'>5.0 out of 5 stars "A Call of the Soul"</p> */}
+        <div className='rating rating-xs'>
+         <AiFillStar className='star' ></AiFillStar>
+         <AiFillStar className='star' ></AiFillStar>
+         <AiFillStar className='star' ></AiFillStar>
+         <AiFillStar className='star' ></AiFillStar>
+         <AiFillStar className='star' ></AiFillStar>
+        </div>
         <p className='rating'>5.0 out of 5 stars "A Call of the Soul"</p>
         <p className='amazon-title italic'>Review from Amazon</p>
         {/* <hr className='line' /> */}
@@ -32,6 +42,13 @@ const SAReviewCard = () => {
           story of your own."
         </p>
         <p className='quoteAuthor'>Sheri L.</p>
+        <div className='rating rating-xs'>
+         <AiFillStar className='star' ></AiFillStar>
+         <AiFillStar className='star' ></AiFillStar>
+         <AiFillStar className='star' ></AiFillStar>
+         <AiFillStar className='star' ></AiFillStar>
+         <AiFillStar className='star' ></AiFillStar>
+        </div>
         <p className='rating'>5.0 out of 5 stars "Inspiring Stories</p>
         <p className='amazon-title italic'>Review from Amazon</p>
         {/* <hr className='line' /> */}
@@ -52,7 +69,13 @@ const SAReviewCard = () => {
           of the inner and outer worlds."
         </p>
         <p className='quoteAuthor'>M Timms</p>
-        {/* <p className='authorTitle'>Actor</p> */}
+        <div className='rating rating-xs'>
+         <AiFillStar className='star' ></AiFillStar>
+         <AiFillStar className='star' ></AiFillStar>
+         <AiFillStar className='star' ></AiFillStar>
+         <AiFillStar className='star' ></AiFillStar>
+         <AiFillStar className='star' ></AiFillStar>
+        </div>
         <p className='rating'>5.0 out of 5 stars "Evocative Portraits" </p>
         <p className='amazon-title italic'>Review from Amazon</p>
         {/* <hr className='line' /> */}
