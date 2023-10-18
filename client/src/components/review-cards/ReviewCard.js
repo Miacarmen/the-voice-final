@@ -17,7 +17,7 @@ const ReviewCard = () => {
           contact who tells a compelling story that held my interest to the last
           page."
         </p>
-        <p className='quoteAuthor'>Ann Eller, RN. NP</p>
+        <p className='quoteAuthor'>Ann Eller, RN, NP</p>
         <p className='authorTitle'>
           Former Assistant to the late famed astronomer{' '}
           <span className='quoteHighlight'>J. Allen Hynek, Ph.D.</span>,

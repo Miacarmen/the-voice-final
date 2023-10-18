@@ -32,8 +32,8 @@ const Hero = () => {
 
             <div className='paragraph-container'>
               <p className='book-back pb-5'>
-                Richard E. Carmen is a well-published Doctor of Audiology. After 40 years of
-                silence he{"'"}s stepping forward with an astounding{' '}
+                Richard E. Carmen is a well-published Doctor of Audiology. After
+                40 years of silence he{"'"}s stepping forward with an astounding{' '}
                 <span className='hero-highlight pl-1'>
                   {' '}
                   factual extraterrestrial contact and Divine intervention
@@ -47,11 +47,11 @@ const Hero = () => {
                 to witness their presence. They set the date three months hence.
               </p>
               <p className='book-back pb-5'>
-                In the meantime, his family, friends, colleagues, even neighbors
-                and their young children began witnessing astonishing contact
-                events with him. Situations were clearly being manipulated in
-                extraordinary ways. People began walking into his life.
-                Nationally known Pastor Jack was convinced he was Godsent.
+                During those 90 days, his family, friends, colleagues, even
+                neighbors and their young children began witnessing astonishing
+                contact events with him. Situations were clearly being
+                manipulated in extraordinary ways. People began walking into his
+                life. Nationally known Pastor Jack was convinced he was Godsent.
                 Clinical psychologist Jo at first objectified his experiences
                 until she herself became a witness. Medium Adele provided
                 evidence of life after death. He met notable author, inventor
@@ -59,7 +59,7 @@ const Hero = () => {
                 “star child” with unearthly abilities. Through prior
                 extraterrestrial contact, Dr. Puharich had received knowledge of
                 the New Physics that supports the science behind paranormal
-                activity. In the meantime, he had been receiving ongoing
+                activity. In the meantime, Dr. Carmen had been receiving ongoing
                 spiritual guidance from a mysterious and loving Voice.
               </p>
               <p className='book-back pb-5'>
@@ -107,8 +107,8 @@ const Hero = () => {
 
             <div className='paragraph-container'>
               <p className='book-back pb-5'>
-                Richard E. Carmen is a well-published Doctor of Audiology. After 40 years of
-                silence he{"'"}s stepping forward with an astounding{' '}
+                Richard E. Carmen is a well-published Doctor of Audiology. After
+                40 years of silence he{"'"}s stepping forward with an astounding{' '}
                 <span className='hero-highlight pl-1'>
                   {' '}
                   factual extraterrestrial contact and Divine intervention
@@ -122,11 +122,11 @@ const Hero = () => {
                 to witness their presence. They set the date three months hence.
               </p>
               <p className='book-back pb-5'>
-                In the meantime, his family, friends, colleagues, even neighbors
-                and their young children began witnessing astonishing contact
-                events with him. Situations were clearly being manipulated in
-                extraordinary ways. People began walking into his life.
-                Nationally known Pastor Jack was convinced he was Godsent.
+                During those 90 days, his family, friends, colleagues, even
+                neighbors and their young children began witnessing astonishing
+                contact events with him. Situations were clearly being
+                manipulated in extraordinary ways. People began walking into his
+                life. Nationally known Pastor Jack was convinced he was Godsent.
                 Clinical psychologist Jo at first objectified his experiences
                 until she herself became a witness. Medium Adele provided
                 evidence of life after death. He met notable author, inventor
@@ -134,7 +134,7 @@ const Hero = () => {
                 “star child” with unearthly abilities. Through prior
                 extraterrestrial contact, Dr. Puharich had received knowledge of
                 the New Physics that supports the science behind paranormal
-                activity. In the meantime, he had been receiving ongoing
+                activity. In the meantime, Dr. Carmen had been receiving ongoing
                 spiritual guidance from a mysterious and loving Voice.
               </p>
               <p className='book-back pb-5'>
@@ -168,8 +168,9 @@ const Hero = () => {
 
                 <div className='paragraph-container'>
                   <p className='book-back pb-5'>
-                    Richard E. Carmen is a well-published Doctor of Audiology. After 40 years
-                    of silence he{"'"}s stepping forward with an astounding{' '}
+                    Richard E. Carmen is a well-published Doctor of Audiology.
+                    After 40 years of silence he{"'"}s stepping forward with an
+                    astounding{' '}
                     <span className='hero-highlight pl-1'>
                       {' '}
                       factual extraterrestrial contact and Divine intervention
@@ -184,7 +185,7 @@ const Hero = () => {
                     set the date three months hence.
                   </p>
                   <p className='book-back pb-5'>
-                    In the meantime, his family, friends, colleagues, even
+                    During those 90 days, his family, friends, colleagues, even
                     neighbors and their young children began witnessing
                     astonishing contact events with him. Situations were clearly
                     being manipulated in extraordinary ways. People began
@@ -197,8 +198,8 @@ const Hero = () => {
                     unearthly abilities. Through prior extraterrestrial contact,
                     Dr. Puharich had received knowledge of the New Physics that
                     supports the science behind paranormal activity. In the
-                    meantime, he had been receiving ongoing spiritual guidance
-                    from a mysterious and loving Voice.
+                    meantime, Dr. Carmen had been receiving ongoing spiritual
+                    guidance from a mysterious and loving Voice.
                   </p>
 
                   <p className='book-back pb-5'>

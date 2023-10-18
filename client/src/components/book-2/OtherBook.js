@@ -64,6 +64,13 @@ const OtherBook = () => {
               </div>
             </div>
           </div>
+          <div className='note'>
+            <h2 className='text-accent'>
+              NOTE: Characterization of this little outpost in the desert is as
+              timeless as the transpersonal moments residents and visitors have
+              experienced
+            </h2>
+          </div>
           <div>
             <SAReviewCard />
           </div>
@@ -128,6 +135,13 @@ const OtherBook = () => {
                 </a>
               </div>
             </div>
+          </div>
+          <div className='note'>
+            <h2 className='text-accent'>
+              NOTE: Characterization of this little outpost in the desert is as
+              timeless as the transpersonal moments residents and visitors have
+              experienced
+            </h2>
           </div>
           <div>
             <SAReviewCard />
@@ -196,6 +210,13 @@ const OtherBook = () => {
                 <button className='btn preview-btn'>Read a Preview</button>
               </Link>
             </div>
+          </div>
+          <div className='note'>
+            <h2 className='text-accent'>
+              NOTE: Characterization of this little outpost in the desert is as
+              timeless as the transpersonal moments residents and visitors have
+              experienced
+            </h2>
           </div>
           <div>
             <SAReviewCard />
