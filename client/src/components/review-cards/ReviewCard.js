@@ -36,7 +36,7 @@ const ReviewCard = () => {
           "Dr. Carmen's advanced Beings of Light transmitted some profound
           messages which may well assist you in your own quest!"
         </p>
-        <p className='quoteAuthor'>Sergei Kochkin Ph.D.</p>
+        <p className='quoteAuthor'>Sergei Kochkin, Ph.D.</p>
         <p className='authorTitle'>Research Psychologist</p>
         <p className='quoteExtra'>
           Former Executive Director of the Better Hearing Institute

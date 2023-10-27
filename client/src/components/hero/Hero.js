@@ -27,7 +27,7 @@ const Hero = () => {
               </Link>
             </figure>
             <Link to='/bookexcerpt'>
-              <button className='btn preview-btn'>Read a Preview</button>
+              <button className='btn preview-btn'>Book Excerpts</button>
             </Link>
 
             <div className='paragraph-container'>
@@ -102,7 +102,7 @@ const Hero = () => {
               </Link>
             </figure>
             <Link to='/bookexcerpt'>
-              <button className='btn preview-btn'>Read a Preview</button>
+              <button className='btn preview-btn'>Book Excerpts</button>
             </Link>
 
             <div className='paragraph-container'>
@@ -236,7 +236,7 @@ const Hero = () => {
                   </Link>
 
                   <Link to='/bookexcerpt'>
-                    <button className='btn preview-btn'>Read a Preview</button>
+                    <button className='btn preview-btn'>Book Excerpts</button>
                   </Link>
                 </figure>
               </div>
