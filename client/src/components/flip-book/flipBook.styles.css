@@ -20,8 +20,8 @@
 }
 
 .excerpt-page {
-  width: 600px;
-  height: 745px;
+  width: 580px;
+  height: 755px;
 }
 
 .book-controls {
@@ -94,4 +94,12 @@
     width: 400px;
     height: 650px;
   }
+}
+
+@media screen and (min-width: 1024px) {
+  .excerpt-page {
+    width: 580px;
+    height: 785px;
+  }
+
 }
