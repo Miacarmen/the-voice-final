@@ -13,6 +13,7 @@ import ArtistBio from './pages/ArtistBio';
 import BookPreview from './pages/BookPreview';
 import Preview2 from './pages/Preview2';
 import Testimonials from './pages/Testimonials';
+import Media from './pages/Media';
 import Footer from './components/footer/Footer';
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
             <Route path='/bookexcerpt' element={<BookPreview />} />
             <Route path='/bookexcerpt2' element={<Preview2 />} />
             <Route path='/testimonials' element={<Testimonials />} />
+            {/* <Route path='/media' element={<Media />} /> */}
           </Routes>
           <Footer />
         </div>

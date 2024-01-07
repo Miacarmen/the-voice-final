@@ -20,6 +20,9 @@ const Hero = () => {
                 alt='Book Cover'
                 className='bookCoverImg'
               />
+              {/* <Link to='/downloads'>
+                <div className='download-link pt-5'>Download Book Cover</div>
+                </Link> */}
               <Link to='/artistbio'>
                 <div className='artist-link pt-5'>
                   Learn About the Artist Behind the Cover
@@ -95,6 +98,9 @@ const Hero = () => {
                 alt='Book Cover'
                 className='bookCoverImg'
               />
+              {/* <Link to='/downloads'>
+                <div className='download-link pt-5'>Download Book Cover</div>
+                </Link> */}
               <Link to='/artistbio'>
                 <div className='artist-link pt-5'>
                   Learn About the Artist Behind the Cover
@@ -228,6 +234,9 @@ const Hero = () => {
                     alt='Book Cover'
                     className='bookCoverImg'
                   />
+
+                  {/* <Link to='/downloads'>
+                    <div className='download-link pt-5'>Download Book Cover</div></Link> */}
 
                   <Link to='/artistbio'>
                     <div className='artist-link pt-5'>

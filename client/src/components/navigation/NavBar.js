@@ -2,6 +2,18 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
+  const ZIP_URL = 'http://localhost:3000/The-Voice-Media-Kit.zip';
+
+  const handleDownload = () => {
+    const fileName = ZIP_URL.split('/').pop();
+    const aTag = document.createElement('a');
+    aTag.href = ZIP_URL;
+    aTag.setAttribute('download', fileName);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  };
+  
   return (
     <div className='navbar'>
       <div className='nav'>
@@ -47,6 +59,7 @@ const NavBar = () => {
         >
           Testimonials
         </NavLink>
+        <p className='navLink' id='downloadLink' onClick={handleDownload}>Media Kit</p>
         <NavLink
           to='/contact'
           className={({ isActive }) =>
