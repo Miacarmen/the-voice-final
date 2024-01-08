@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
-  const ZIP_URL = 'http://localhost:3000/The-Voice-Media-Kit.zip';
+  const ZIP_URL = 'https://auriclebooks.com/The-Voice-Media-Kit.zip';
 
   const handleDownload = () => {
     const fileName = ZIP_URL.split('/').pop();
@@ -12,6 +12,7 @@ const NavBar = () => {
     document.body.appendChild(aTag);
     aTag.click();
     aTag.remove();
+    console.log('downloaded', fileName);
   };
   
   return (

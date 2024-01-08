@@ -39,6 +39,19 @@ const MobileDropDown = () => {
     };
   }, [showMenu]);
 
+  const ZIP_URL = 'https://auriclebooks.com/The-Voice-Media-Kit.zip';
+
+  const handleDownload = () => {
+    const fileName = ZIP_URL.split('/').pop();
+    const aTag = document.createElement('a');
+    aTag.href = ZIP_URL;
+    aTag.setAttribute('download', fileName);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+    console.log('downloaded', fileName);
+  };
+
   return (
     <div className='mobileNav'>
       <div className='menu-icon-container' onClick={toggleMenu} ref={iconRef}>
@@ -106,6 +119,7 @@ const MobileDropDown = () => {
                 Testimonials
               </NavLink>
             </li>
+
             <li>
               <NavLink
                 to='/contact'
@@ -116,6 +130,15 @@ const MobileDropDown = () => {
               >
                 Contact
               </NavLink>
+            </li>
+            <li>
+              <p
+                className='navLink'
+                id='mobileDownloadLink'
+                onClick={handleDownload}
+              >
+                Media Kit
+              </p>
             </li>
           </ul>
         </div>

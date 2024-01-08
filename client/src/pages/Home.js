@@ -17,9 +17,7 @@ const Home = () => {
       {/* <div>
         <h2>Available for Purchase January 2024</h2>
       </div> */}
-      <div className='media-container'>
-      <button className='btn downloadBtn bg-accent'>Download Media Kit</button>
-      </div>
+      
     </div>
   );
 };

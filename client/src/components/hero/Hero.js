@@ -12,7 +12,7 @@ const Hero = () => {
         <>
           <div className='book-content text-secondary'>
             <h2 className='cardTitle text-accent'>THE VOICE</h2>
-            <h3 className='subtitle'>Coming January 2024</h3>
+            <h3 className='subtitle'>Coming February 2024</h3>
 
             <figure className='m-5 bookImgContainer mobile-first'>
               <img
@@ -80,9 +80,9 @@ const Hero = () => {
                 through the eyes of spirit.
               </p>
             </div>
-            <a href='https://buy.stripe.com/9AQcNd3HS8S08RWcMN' alt='stripe'>
+            {/* <a href='https://buy.stripe.com/9AQcNd3HS8S08RWcMN' alt='stripe'>
               <button className='btn shopBtn bg-accent '>PRE-ORDER NOW</button>
-            </a>
+            </a> */}
           </div>
         </>
       ) : isTablet ? (
@@ -90,7 +90,7 @@ const Hero = () => {
         <>
           <div className='book-content text-secondary'>
             <h2 className='cardTitle text-accent'>THE VOICE</h2>
-            <h3 className='subtitle'>Coming January 2024</h3>
+            <h3 className='subtitle'>Coming February 2024</h3>
 
             <figure className='m-5 bookImgContainer mobile-first'>
               <img
@@ -158,9 +158,9 @@ const Hero = () => {
                 through the eyes of spirit.
               </p>
             </div>
-            <a href='https://buy.stripe.com/9AQcNd3HS8S08RWcMN' alt='stripe'>
+            {/* <a href='https://buy.stripe.com/9AQcNd3HS8S08RWcMN' alt='stripe'>
               <button className='btn shopBtn bg-accent '>PRE-ORDER NOW</button>
-            </a>
+            </a> */}
           </div>
         </>
       ) : (
@@ -170,7 +170,7 @@ const Hero = () => {
             <div className='hero-content grid grid-cols-2 bg-base-100 shadow-black'>
               <div className='book-content text-secondary'>
                 <h2 className='cardTitle text-accent'>THE VOICE</h2>
-                <h3 className='subtitle'>Coming January 2024</h3>
+                <h3 className='subtitle'>Coming February 2024</h3>
 
                 <div className='paragraph-container'>
                   <p className='book-back pb-5'>
@@ -235,8 +235,7 @@ const Hero = () => {
                     className='bookCoverImg'
                   />
 
-                  {/* <Link to='/downloads'>
-                    <div className='download-link pt-5'>Download Book Cover</div></Link> */}
+    
 
                   <Link to='/artistbio'>
                     <div className='artist-link pt-5'>
@@ -250,11 +249,11 @@ const Hero = () => {
                 </figure>
               </div>
               {/* <div className='btn-container col-span-4'> */}
-              <a href='https://buy.stripe.com/9AQcNd3HS8S08RWcMN' alt='stripe'>
+              {/* <a href='https://buy.stripe.com/9AQcNd3HS8S08RWcMN' alt='stripe'>
                 <button className='btn shopBtn bg-accent mt-3'>
                   PRE-ORDER NOW
                 </button>
-              </a>
+              </a> */}
               {/* </div> */}
             </div>
           </div>

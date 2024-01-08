@@ -122,6 +122,10 @@ body {
   color: #ffc757;
 }
 
+#mobileDownloadLink {
+  font-size: 12px;
+}
+
 /*  HOME PAGE  */
 
 .main-container {
