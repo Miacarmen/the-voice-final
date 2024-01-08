@@ -270,17 +270,23 @@ textarea {
 /* Testimonials */
 
 .testimonial-container {
-  height: 70vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2em;
 }
 
-.testimonial-container h1 {
-  font-size: 45px;
+.testimonial-head {
+  font-size: 30px;
   font-weight: 700;
   color: #ffc757;
 }
+
+#video1 {
+  padding: 2em;
+}
+
 /* FOOTER */
 
 .footerHead {
@@ -482,15 +488,15 @@ textarea {
   }
 
   .testimonial-container {
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 4em;
   }
 
-  .testimonial-container h1 {
-    font-size: 45px;
+  .testimonial-head {
+    font-size: 22px;
     font-weight: 700;
     color: #ffc757;
   }
+
 }

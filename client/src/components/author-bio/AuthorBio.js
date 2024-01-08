@@ -10,7 +10,7 @@ const AuthorBio = () => {
           Richard E. Carmen
         </span>{' '}
         holds three academic degrees in mainstream science with a Doctor of
-        Audiology (Au.D) from the Kirksville College of Osteopathic Medicine.
+        Audiology (Au.D) from the Arizona School of Health Sciences, a Division of the Kirksville College of Osteopathic Medicine.
         Spanning over half a century he has served the deaf, deaf-blind, hard of
         hearing and underprivileged. He{"'"}s been an award-winning author with
         over 50 feature articles, cover stories, chapters, books and
