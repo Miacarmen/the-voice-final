@@ -300,12 +300,12 @@ textarea {
 /* FOOTER */
 
 .footerHead {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
 }
 
 .footerContent {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 #webLink {
@@ -481,5 +481,13 @@ textarea {
     font-size: 22px;
     font-weight: 700;
     color: #ffc757;
+  }
+
+  .footerHead {
+    font-size: 17px;
+  }
+
+  .footerContent {
+    font-size: 14px;
   }
 }
