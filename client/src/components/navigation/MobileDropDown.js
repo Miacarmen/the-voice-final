@@ -95,7 +95,7 @@ const MobileDropDown = () => {
                 Author
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink
                 to='/otherbooks'
                 id='other-books'
@@ -106,7 +106,7 @@ const MobileDropDown = () => {
               >
                 Other&nbsp;Books
               </NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink
                 to='/testimonials'
@@ -133,8 +133,7 @@ const MobileDropDown = () => {
             </li>
             <li>
               <p
-                className='navLink'
-                id='mobileDownloadLink'
+                className='mobileDownloadLink'
                 onClick={handleDownload}
               >
                 Media Kit

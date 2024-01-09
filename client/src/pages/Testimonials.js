@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ReviewCard from '../components/review-cards/ReviewCard';
+
 const Testimonials = () => {
   return (
     <div className='testimonial-container'>
@@ -22,6 +24,9 @@ const Testimonials = () => {
           title='YouTube video player'
           allowfullscreen
         ></iframe>
+      </div>
+      <div className='pt-8'>
+        <ReviewCard />
       </div>
     </div>
   );

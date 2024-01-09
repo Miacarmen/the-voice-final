@@ -12,7 +12,7 @@ const Hero = () => {
         <>
           <div className='book-content text-secondary'>
             <h2 className='cardTitle text-accent'>THE VOICE</h2>
-            <h3 className='subtitle'>Coming February 2024</h3>
+            <h3 className='subtitle'>Coming Late January 2024</h3>
 
             <figure className='m-5 bookImgContainer mobile-first'>
               <img
@@ -90,7 +90,7 @@ const Hero = () => {
         <>
           <div className='book-content text-secondary'>
             <h2 className='cardTitle text-accent'>THE VOICE</h2>
-            <h3 className='subtitle'>Coming February 2024</h3>
+            <h3 className='subtitle'>Coming Late January 2024</h3>
 
             <figure className='m-5 bookImgContainer mobile-first'>
               <img
@@ -170,7 +170,7 @@ const Hero = () => {
             <div className='hero-content grid grid-cols-2 bg-base-100 shadow-black'>
               <div className='book-content text-secondary'>
                 <h2 className='cardTitle text-accent'>THE VOICE</h2>
-                <h3 className='subtitle'>Coming February 2024</h3>
+                <h3 className='subtitle'>Coming Late January 2024</h3>
 
                 <div className='paragraph-container'>
                   <p className='book-back pb-5'>

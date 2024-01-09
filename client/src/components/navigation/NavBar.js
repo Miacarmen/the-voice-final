@@ -14,7 +14,7 @@ const NavBar = () => {
     aTag.remove();
     console.log('downloaded', fileName);
   };
-  
+
   return (
     <div className='navbar'>
       <div className='nav'>
@@ -42,7 +42,7 @@ const NavBar = () => {
         >
           Author
         </NavLink>
-        <NavLink
+        {/* <NavLink
           to='/otherbooks'
           id='other-books'
           className={({ isActive }) =>
@@ -50,7 +50,7 @@ const NavBar = () => {
           }
         >
           Other&nbsp;Books
-        </NavLink>
+        </NavLink> */}
         <NavLink
           to='/testimonials'
           id='testimonials'
@@ -60,7 +60,9 @@ const NavBar = () => {
         >
           Testimonials
         </NavLink>
-        <p className='navLink' id='downloadLink' onClick={handleDownload}>Media Kit</p>
+        <p className='navLink' id='downloadLink' onClick={handleDownload}>
+          Media Kit
+        </p>
         <NavLink
           to='/contact'
           className={({ isActive }) =>
