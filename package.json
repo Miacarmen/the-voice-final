@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd client && npm start",
-    "build": "cd client && npm run build"
+    "start": "concurrently \"npm run client-start\" \"npm run server-start\"",
+    "client-start": "cd client && npm start",
+    "client-build": "cd client && npm run build",
+    "server-start": "nodemon server.js",
+    "build": "npm run client-build"
   },
   "repository": {
     "type": "git",
@@ -22,5 +25,8 @@
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
   }
 }
