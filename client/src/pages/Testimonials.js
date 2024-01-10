@@ -25,6 +25,17 @@ const Testimonials = () => {
           allowfullscreen
         ></iframe>
       </div>
+      <div id='video3'>
+        <iframe
+          width='560'
+          height='315'
+          src='https://www.youtube.com/embed/fdnvo5w_Bjg?si=qAuo7VTKBvAKtAnl'
+          title='YouTube video player'
+          frameborder='0'
+          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+          allowfullscreen
+        ></iframe>
+      </div>
       <div className='pt-8'>
         <ReviewCard />
       </div>
