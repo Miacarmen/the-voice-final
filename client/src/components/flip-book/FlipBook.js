@@ -6,8 +6,8 @@ const FlipBook = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const ImageLinks = [
-    'https://i.imgur.com/Cum510y.jpg',
-    'https://i.imgur.com/H7tVEpU.jpg',
+    'https://imgur.com/YS02NEa.jpg',
+    'https://imgur.com/UDEht0O.jpg',
     'https://i.imgur.com/ODaAM7b.jpg',
     'https://i.imgur.com/rpVeIPg.jpg',
     'https://i.imgur.com/JhYs5jt.jpg',
