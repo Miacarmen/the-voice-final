@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className='mb-12'>
       <Hero id='hero' />
-      {/* <Purchase /> */}
+      <Purchase />
 
       <div className='review-container'>
         <ReviewCard />

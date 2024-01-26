@@ -12,7 +12,8 @@ const Hero = () => {
         <>
           <div className='book-content text-secondary'>
             <h2 className='cardTitle text-accent'>THE VOICE</h2>
-            <h3 className='subtitle'>Coming Late January 2024</h3>
+            <h3 className='subtitle'>Available Now</h3>
+            <Link to='https://www.amazon.com/Voice-Journey-through-Eyes-Spirit/dp/0982578598/ref=sr_1_1?crid=1LK9ASSK76ZDP&keywords=the+voice+richard+carmen&qid=1706232501&s=books&sprefix=the+voice+richard+carmen%2Cstripbooks%2C141&sr=1-1'><button className='btn shopBtn bg-accent mb-9'>BUY NOW</button></Link>
 
             <figure className='m-5 bookImgContainer mobile-first'>
               <img
@@ -90,7 +91,8 @@ const Hero = () => {
         <>
           <div className='book-content text-secondary'>
             <h2 className='cardTitle text-accent'>THE VOICE</h2>
-            <h3 className='subtitle'>Coming Late January 2024</h3>
+            <h3 className='subtitle'>Available Now on Amazon</h3>
+            <Link to='https://www.amazon.com/Voice-Journey-through-Eyes-Spirit/dp/0982578598/ref=sr_1_1?crid=1LK9ASSK76ZDP&keywords=the+voice+richard+carmen&qid=1706232501&s=books&sprefix=the+voice+richard+carmen%2Cstripbooks%2C141&sr=1-1'><button className='btn shopBtn bg-accent'>BUY NOW</button></Link>
 
             <figure className='m-5 bookImgContainer mobile-first'>
               <img
@@ -170,7 +172,9 @@ const Hero = () => {
             <div className='hero-content grid grid-cols-2 bg-base-100 shadow-black'>
               <div className='book-content text-secondary'>
                 <h2 className='cardTitle text-accent'>THE VOICE</h2>
-                <h3 className='subtitle'>Coming Late January 2024</h3>
+                <h3 className='subtitle'>Available Now on Amazon</h3>
+                <Link to='https://www.amazon.com/Voice-Journey-through-Eyes-Spirit/dp/0982578598/ref=sr_1_1?crid=1LK9ASSK76ZDP&keywords=the+voice+richard+carmen&qid=1706232501&s=books&sprefix=the+voice+richard+carmen%2Cstripbooks%2C141&sr=1-1'><button className='btn shopBtn bg-accent mb-9'>BUY NOW</button></Link>
+                
 
                 <div className='paragraph-container'>
                   <p className='book-back pb-5'>
@@ -227,7 +231,7 @@ const Hero = () => {
                 </div>
               </div>
 
-              <div className='bookImgContainer'>
+              <div className='bookImgContainer pb-16'>
                 <figure className=' mobile-first'>
                   <img
                     src='https://i.imgur.com/h0RqrBG.png'
