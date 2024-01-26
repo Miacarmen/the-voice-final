@@ -176,6 +176,14 @@ body {
   font-style: italic;
 }
 
+.shop-Btn {
+  border: 1px solid #fcae04;
+  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+}
+
 .book-back {
   font-size: 20px;
   color: #ffffff;
@@ -414,6 +422,9 @@ textarea {
     border-radius: 20px;
   }
 
+  .subtitle {
+    font-size: 25px;
+  }
   .preview-btn {
     margin: 0em 0em 2em 0em;
   }
