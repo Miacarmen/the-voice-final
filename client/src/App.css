@@ -165,6 +165,7 @@ body {
 
 .menuLink-active {
   color: #ffc757;
+  background-color: none;
 }
 
 .mobileDownloadLink {
