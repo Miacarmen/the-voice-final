@@ -159,7 +159,7 @@ body {
 
 .menuLink {
   display: block;
-  color: ghostwhite;
+  color: #f8f8ff;
   text-decoration: none;
 }
 
@@ -185,13 +185,13 @@ body {
 }
 
 .mobile-fb-icon {
-  color: #ffffff;
+  color: #f8f8ff;
   font-size: 20px;
   margin: 0 10px 0 3px;
 }
 
 .mobile-ig-icon {
-  color: #ffffff;
+  color: #f8f8ff;
   font-size: 20px;
   margin: 0 10px 0 3px;
 }
@@ -250,7 +250,7 @@ body {
 
 .book-back {
   font-size: 20px;
-  color: #ffffff;
+  color: #f8f8ff;
   font-family: 'Baskerville Medium';
 }
 
@@ -393,6 +393,36 @@ textarea {
   color: #6a6767;
 }
 
+/* 404 PAGE */
+.error-container {
+  margin: 0em 5em 5em 5em;
+  padding: 5em 5em 5em 5em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.error-head {
+  font-size: 70px;
+  font-weight: 700;
+  color: #ffc757;
+  padding-bottom: 1em;
+}
+
+.error-p {
+  font-size: 30px;
+  font-weight: 300;
+  color: #f8f8ff;
+  padding-bottom: 2em;
+}
+
+.error-link {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffc757;
+  text-decoration: none;
+}
+
 /* Tablet styles */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .main-container {
@@ -486,11 +516,6 @@ textarea {
     border-radius: 20px;
   }
 
-  /* .navbar {
-  background-color: #1a1a22;
-  opacity: 0.8;
-  } */
-
   .menuLink {
     padding-bottom: 12px;
   }
@@ -582,5 +607,27 @@ textarea {
 
   .footerContent {
     font-size: 14px;
+  }
+
+  .error-container {
+    margin: 7em 1em 5em 1em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .error-head {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffc757;
+    padding-bottom: 1em;
+  }
+
+  .error-p {
+    font-size: 30px;
+    font-weight: 300;
+    color: #f8f8ff;
+    padding-bottom: 2em;
   }
 }

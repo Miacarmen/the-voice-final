@@ -8,12 +8,10 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Author from './pages/Author';
-// import OtherBooks from './pages/OtherBooks';
 import ArtistBio from './pages/ArtistBio';
 import BookPreview from './pages/BookPreview';
-// import Preview2 from './pages/Preview2';
 import Testimonials from './pages/Testimonials';
-// import Media from './pages/Media';
+import NotFound from './pages/NotFound';
 import Footer from './components/footer/Footer';
 
 function App() {
@@ -38,12 +36,10 @@ function App() {
             <Route path='/about' element={<About />} />
             <Route path='/author' element={<Author />} />
             <Route path='/contact' element={<Contact />} />
-            {/* <Route path='/otherbooks' element={<OtherBooks />} /> */}
             <Route path='/artistbio' element={<ArtistBio />} />
             <Route path='/bookexcerpt' element={<BookPreview />} />
-            {/* <Route path='/bookexcerpt2' element={<Preview2 />} /> */}
             <Route path='/testimonials' element={<Testimonials />} />
-            {/* <Route path='/media' element={<Media />} /> */}
+            <Route path='*' element={<NotFound />} />
           </Routes>
           <Footer />
         </div>
