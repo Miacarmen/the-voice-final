@@ -36,7 +36,8 @@ const Testimonials = () => {
           allowfullscreen
         ></iframe>
       </div>
-      <div className='pt-8'>
+      <div className='testimonial-container pt-8'>
+        <h2 className='testimonial-head'>Book Testimonials</h2>
         <ReviewCard />
       </div>
     </div>

@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { NavLink } from 'react-router-dom';
-
+import { NavLink, Link } from 'react-router-dom';
+import { FaInstagram } from "react-icons/fa";
+import { FaSquareFacebook } from "react-icons/fa6";
 import { FiMenu } from 'react-icons/fi';
 
 const MobileDropDown = () => {
@@ -140,6 +141,18 @@ const MobileDropDown = () => {
               </p>
             </li>
           </ul>
+          <div className='nav-social-icons'>
+          <div className='mobile-fb-icon pr-1'>
+        <Link to='https://www.facebook.com/auriclebooks/'>
+          <FaSquareFacebook />
+        </Link>
+        </div>
+        <div className='mobile-ig-icon pl-1'>
+        <Link to='https://www.instagram.com/auriclebooks/'>
+          <FaInstagram />
+        </Link>
+        </div>
+        </div>
         </div>
       )}
     </div>

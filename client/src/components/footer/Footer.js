@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { FaInstagram } from "react-icons/fa";
+import { FaSquareFacebook } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -20,7 +23,18 @@ const Footer = () => {
             Auricle Ink Publishers
           </a>
         </p>
-
+        <div className='rightNav pb-2'>
+        <div className='fb-icon'>
+        <Link to='https://www.facebook.com/auriclebooks/'>
+          <FaSquareFacebook />
+        </Link>
+        </div>
+        <div className='ig-icon'>
+        <Link to='https://www.instagram.com/auriclebooks/'>
+          <FaInstagram />
+        </Link>
+        </div>
+      </div>
         <p>Copyright © 2024 - All Rights Reserved</p>
       </div>
     </div>

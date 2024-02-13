@@ -12,16 +12,23 @@ body {
 }
 
 .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
-}
-.nav {
   list-style: none;
   text-align: center;
-  padding-top: 1rem;
 }
 
-.nav {
+.leftNav {
   display: flex;
+  justify-content: flex-start;
+}
+
+.rightNav {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 20px;
 }
 
 .navLink {
@@ -52,15 +59,31 @@ body {
   color: #ffc757;
 }
 
-.container {
-  margin: 0 10rem 0 10rem;
-  text-align: center;
-}
-
 
 #downloadLink:hover {
   color: #ffc757;
   cursor: pointer;
+}
+
+.fb-icon {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0 10px 0 3px;
+}
+
+.ig-icon {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0 10px 0 3px;
+}
+
+.fb-icon:hover {
+  color: #ffc757;
+}
+
+.container {
+  margin: 0 10rem 0 10rem;
+  text-align: center;
 }
 
 /* MOBILE NAV */
@@ -94,9 +117,11 @@ body {
   top: 100%;
   width: 150px;
   border-radius: 20px;
+  /* background-color: ghostwhite; */
   background-color: #1d1d29;
   border: 1px solid #20202e;
   box-shadow: 5px 5px 8px #10101d;
+  z-index: 50;
 }
 
 .menu.open {
@@ -130,6 +155,13 @@ body {
 
 .mobileDownloadLink:hover {
   color: #ffc757;
+}
+
+.nav-social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 0 0;
 }
 
 /*  HOME PAGE  */
@@ -422,9 +454,15 @@ textarea {
     border-radius: 20px;
   }
 
+  /* .navbar {
+  background-color: #1a1a22;
+  opacity: 0.8;
+  } */
+
   .subtitle {
     font-size: 25px;
   }
+
   .preview-btn {
     margin: 0em 0em 2em 0em;
   }

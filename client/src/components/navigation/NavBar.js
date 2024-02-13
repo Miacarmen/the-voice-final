@@ -1,5 +1,9 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
+// import { FaInstagram } from "react-icons/fa";
+// import { FaSquareFacebook } from "react-icons/fa6";
+
+
 
 const NavBar = () => {
   const ZIP_URL = 'https://auriclebooks.com/The-Voice-Media-Kit.zip';
@@ -17,7 +21,7 @@ const NavBar = () => {
 
   return (
     <div className='navbar'>
-      <div className='nav'>
+      <div className='leftNav'>
         <NavLink
           to='/'
           className={({ isActive }) =>
@@ -72,6 +76,18 @@ const NavBar = () => {
           Contact
         </NavLink>
       </div>
+      {/* <div className='rightNav'>
+        <div className='fb-icon'>
+        <Link to='https://www.facebook.com/auriclebooks/'>
+          <FaSquareFacebook />
+        </Link>
+        </div>
+        <div className='ig-icon'>
+        <Link to='https://www.instagram.com/auriclebooks/'>
+          <FaInstagram />
+        </Link>
+        </div>
+      </div> */}
     </div>
   );
 };
