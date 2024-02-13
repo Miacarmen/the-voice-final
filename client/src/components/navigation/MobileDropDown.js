@@ -1,14 +1,16 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import { FaInstagram } from "react-icons/fa";
-import { FaSquareFacebook } from "react-icons/fa6";
+import { FaInstagram } from 'react-icons/fa';
+import { FaSquareFacebook } from 'react-icons/fa6';
 import { FiMenu } from 'react-icons/fi';
+import { AiOutlineClose } from "react-icons/ai";
+
 
 const MobileDropDown = () => {
   const [showMenu, setShowMenu] = useState(false);
 
-  const menuRef = useRef();
-  const iconRef = useRef();
+  // const menuRef = useRef();
+  // const iconRef = useRef();
 
   // Toggle the menu when the menu icon is clicked
   const toggleMenu = () => {
@@ -16,29 +18,9 @@ const MobileDropDown = () => {
   };
 
   // Function to close the menu
-  const closeMenu = () => {
-    setShowMenu(false);
-  };
-
-  // Event listener to handle clicks outside of the component
-  useEffect(() => {
-    const handleDocumentClick = (event) => {
-      if (
-        showMenu &&
-        menuRef.current &&
-        !menuRef.current.contains(event.target) &&
-        !iconRef.current.contains(event.target)
-      ) {
-        closeMenu();
-      }
-    };
-
-    document.addEventListener('click', handleDocumentClick);
-
-    return () => {
-      document.removeEventListener('click', handleDocumentClick);
-    };
-  }, [showMenu]);
+  // const closeMenu = () => {
+  //   setShowMenu(false);
+  // };
 
   const ZIP_URL = 'https://auriclebooks.com/The-Voice-Media-Kit.zip';
 
@@ -55,22 +37,22 @@ const MobileDropDown = () => {
 
   return (
     <div className='mobileNav'>
-      <div className='menu-icon-container' onClick={toggleMenu} ref={iconRef}>
-        <FiMenu
-          size={25}
-          className='menu-icon'
-          onClick={() => setShowMenu(!showMenu)}
-        />
+      <div className='menu-toggle' onClick={toggleMenu}>
+        {showMenu ? (
+          <AiOutlineClose size={25} className='close-menu-icon' />
+        ) : (
+          <FiMenu size={25} className='menu-icon' />
+        )}
       </div>
       {showMenu && (
-        <div className='menu' ref={menuRef}>
+        <div className='menu'>
           <ul className='menu-list'>
             <NavLink
               to='/'
               className={({ isActive }) =>
                 isActive ? 'menuLink-active' : 'menuLink'
               }
-              onClick={() => setShowMenu(!showMenu)}
+              onClick={toggleMenu}
             >
               Home
             </NavLink>
@@ -96,18 +78,6 @@ const MobileDropDown = () => {
                 Author
               </NavLink>
             </li>
-            {/* <li>
-              <NavLink
-                to='/otherbooks'
-                id='other-books'
-                className={({ isActive }) =>
-                  isActive ? 'menuLink-active' : 'menuLink'
-                }
-                onClick={() => setShowMenu(!showMenu)}
-              >
-                Other&nbsp;Books
-              </NavLink>
-            </li> */}
             <li>
               <NavLink
                 to='/testimonials'
@@ -133,26 +103,23 @@ const MobileDropDown = () => {
               </NavLink>
             </li>
             <li>
-              <p
-                className='mobileDownloadLink'
-                onClick={handleDownload}
-              >
+              <p className='mobileDownloadLink' onClick={handleDownload}>
                 Media Kit
               </p>
             </li>
           </ul>
           <div className='nav-social-icons'>
-          <div className='mobile-fb-icon pr-1'>
-        <Link to='https://www.facebook.com/auriclebooks/'>
-          <FaSquareFacebook />
-        </Link>
-        </div>
-        <div className='mobile-ig-icon pl-1'>
-        <Link to='https://www.instagram.com/auriclebooks/'>
-          <FaInstagram />
-        </Link>
-        </div>
-        </div>
+            <div className='mobile-fb-icon pr-1'>
+              <Link to='https://www.facebook.com/auriclebooks/'>
+                <FaSquareFacebook />
+              </Link>
+            </div>
+            <div className='mobile-ig-icon pl-1'>
+              <Link to='https://www.instagram.com/auriclebooks/'>
+                <FaInstagram />
+              </Link>
+            </div>
+          </div>
         </div>
       )}
     </div>

@@ -12,8 +12,7 @@ const Footer = () => {
         </a>
         <p className='footerContent pb-2'>
           Check out our other publications from our parent company
-          <a
-            href='https://www.hearingproblems.com/index.htm'
+          <Link to='https://www.hearingproblems.com/index.htm'
             alt='auricle ink publishers'
             id='webLink'
             target='_blank'
@@ -21,7 +20,7 @@ const Footer = () => {
           >
             {' '}
             Auricle Ink Publishers
-          </a>
+          </Link>
         </p>
         <div className='rightNav pb-2'>
         <div className='fb-icon'>
