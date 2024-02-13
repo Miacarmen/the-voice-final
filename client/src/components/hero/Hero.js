@@ -13,7 +13,9 @@ const Hero = () => {
           <div className='book-content text-secondary'>
             <h2 className='cardTitle text-accent'>THE VOICE</h2>
             <h3 className='subtitle'>Available Now on Amazon</h3>
-            <Link to='https://www.amazon.com/Voice-Journey-through-Eyes-Spirit/dp/0982578598/ref=sr_1_1?crid=1LK9ASSK76ZDP&keywords=the+voice+richard+carmen&qid=1706232501&s=books&sprefix=the+voice+richard+carmen%2Cstripbooks%2C141&sr=1-1'><button className='btn shopBtn bg-accent mb-9'>BUY NOW</button></Link>
+            <Link to='https://www.amazon.com/Voice-Journey-through-Eyes-Spirit/dp/0982578598/ref=sr_1_1?crid=1LK9ASSK76ZDP&keywords=the+voice+richard+carmen&qid=1706232501&s=books&sprefix=the+voice+richard+carmen%2Cstripbooks%2C141&sr=1-1'>
+              <button className='btn shopBtn bg-accent mb-9'>BUY NOW</button>
+            </Link>
 
             <figure className='m-5 bookImgContainer mobile-first'>
               <img
@@ -21,9 +23,7 @@ const Hero = () => {
                 alt='Book Cover'
                 className='bookCoverImg'
               />
-              {/* <Link to='/downloads'>
-                <div className='download-link pt-5'>Download Book Cover</div>
-                </Link> */}
+
               <Link to='/artistbio'>
                 <div className='artist-link pt-5'>
                   Learn About the Artist Behind the Cover
@@ -81,9 +81,6 @@ const Hero = () => {
                 through the eyes of spirit.
               </p>
             </div>
-            {/* <a href='https://buy.stripe.com/9AQcNd3HS8S08RWcMN' alt='stripe'>
-              <button className='btn shopBtn bg-accent '>PRE-ORDER NOW</button>
-            </a> */}
           </div>
         </>
       ) : isTablet ? (
@@ -92,7 +89,9 @@ const Hero = () => {
           <div className='book-content text-secondary'>
             <h2 className='cardTitle text-accent'>THE VOICE</h2>
             <h3 className='subtitle'>Available Now on Amazon</h3>
-            <Link to='https://www.amazon.com/Voice-Journey-through-Eyes-Spirit/dp/0982578598/ref=sr_1_1?crid=1LK9ASSK76ZDP&keywords=the+voice+richard+carmen&qid=1706232501&s=books&sprefix=the+voice+richard+carmen%2Cstripbooks%2C141&sr=1-1'><button className='btn shopBtn bg-accent'>BUY NOW</button></Link>
+            <Link to='https://www.amazon.com/Voice-Journey-through-Eyes-Spirit/dp/0982578598/ref=sr_1_1?crid=1LK9ASSK76ZDP&keywords=the+voice+richard+carmen&qid=1706232501&s=books&sprefix=the+voice+richard+carmen%2Cstripbooks%2C141&sr=1-1'>
+              <button className='btn shopBtn bg-accent'>BUY NOW</button>
+            </Link>
 
             <figure className='m-5 bookImgContainer mobile-first'>
               <img
@@ -160,9 +159,6 @@ const Hero = () => {
                 through the eyes of spirit.
               </p>
             </div>
-            {/* <a href='https://buy.stripe.com/9AQcNd3HS8S08RWcMN' alt='stripe'>
-              <button className='btn shopBtn bg-accent '>PRE-ORDER NOW</button>
-            </a> */}
           </div>
         </>
       ) : (
@@ -173,8 +169,11 @@ const Hero = () => {
               <div className='book-content text-secondary'>
                 <h2 className='cardTitle text-accent'>THE VOICE</h2>
                 <h3 className='subtitle'>Available Now on Amazon</h3>
-                <Link to='https://www.amazon.com/Voice-Journey-through-Eyes-Spirit/dp/0982578598/ref=sr_1_1?crid=1LK9ASSK76ZDP&keywords=the+voice+richard+carmen&qid=1706232501&s=books&sprefix=the+voice+richard+carmen%2Cstripbooks%2C141&sr=1-1'><button className='btn shopBtn bg-accent mb-9'>BUY NOW</button></Link>
-                
+                <Link to='https://www.amazon.com/Voice-Journey-through-Eyes-Spirit/dp/0982578598/ref=sr_1_1?crid=1LK9ASSK76ZDP&keywords=the+voice+richard+carmen&qid=1706232501&s=books&sprefix=the+voice+richard+carmen%2Cstripbooks%2C141&sr=1-1'>
+                  <button className='btn shopBtn bg-accent mb-9'>
+                    BUY NOW
+                  </button>
+                </Link>
 
                 <div className='paragraph-container'>
                   <p className='book-back pb-5'>
@@ -239,8 +238,6 @@ const Hero = () => {
                     className='bookCoverImg'
                   />
 
-    
-
                   <Link to='/artistbio'>
                     <div className='artist-link pt-5'>
                       Learn About the Artist Behind the Cover
@@ -252,13 +249,6 @@ const Hero = () => {
                   </Link>
                 </figure>
               </div>
-              {/* <div className='btn-container col-span-4'> */}
-              {/* <a href='https://buy.stripe.com/9AQcNd3HS8S08RWcMN' alt='stripe'>
-                <button className='btn shopBtn bg-accent mt-3'>
-                  PRE-ORDER NOW
-                </button>
-              </a> */}
-              {/* </div> */}
             </div>
           </div>
         </>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import './flipBook.styles.css';
 
@@ -67,9 +68,9 @@ const FlipBook = () => {
           </button>
         </div>
         <div className='btn-container'>
-          <a href='https://buy.stripe.com/9AQcNd3HS8S08RWcMN' alt='stripe'>
-            <button className=' btn preview-btn preOrderBtn'>PRE-ORDER</button>
-          </a>
+          <Link to='https://www.amazon.com/Voice-Journey-through-Eyes-Spirit/dp/0982578598/ref=sr_1_1?crid=1LK9ASSK76ZDP&keywords=the+voice+richard+carmen&qid=1706232501&s=books&sprefix=the+voice+richard+carmen%2Cstripbooks%2C141&sr=1-1'>
+            <button className=' btn preview-btn preOrderBtn'>BUY NOW</button>
+          </Link>
         </div>
       </div>
     </div>

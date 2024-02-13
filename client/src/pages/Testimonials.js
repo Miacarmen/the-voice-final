@@ -13,7 +13,7 @@ const Testimonials = () => {
           src='https://www.youtube.com/embed/vDFdd0T2uFE?si=6pT3kjVm02jiYaXg'
           title='YouTube video player'
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
       <div id='video2'>
@@ -22,7 +22,7 @@ const Testimonials = () => {
           height='315'
           src='https://www.youtube.com/embed/8d2GTG0uHPw?si=tsTEXf_he5ZQxXHG'
           title='YouTube video player'
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
       <div id='video3'>
@@ -33,7 +33,7 @@ const Testimonials = () => {
           title='YouTube video player'
           frameborder='0'
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
       <div className='testimonial-container pt-8'>
