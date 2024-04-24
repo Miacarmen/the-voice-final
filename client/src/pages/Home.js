@@ -13,11 +13,6 @@ const Home = () => {
       <div className='review-container'>
         <ReviewCard />
       </div>
-      {/* <Purchase /> */}
-      {/* <div>
-        <h2>Available for Purchase January 2024</h2>
-      </div> */}
-      
     </div>
   );
 };

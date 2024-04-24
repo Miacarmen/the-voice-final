@@ -21,7 +21,7 @@ const Footer = () => {
             Auricle Ink Publishers
           </Link>
         </p>
-        <div className='rightNav pb-2'>
+        <div className='social-icons pb-2'>
           <div className='fb-icon'>
             <Link to='https://www.facebook.com/auriclebooks/'>
               <FaSquareFacebook />
