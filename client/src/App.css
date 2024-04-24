@@ -80,12 +80,12 @@ body {
 /* MOBILE NAV */
 
 .mobileNav {
-  /* position: fixed; */
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 2rem 0rem 2rem 2rem;
+  padding: 0rem 0rem 2rem 2rem;
   color: #f8f8ff;
+  z-index: 1000;
 }
 
 .menu-toggle {
@@ -94,7 +94,7 @@ body {
   cursor: pointer;
   outline: none;
   position: absolute;
-  top: 25px;
+  top: 15px;
   left: 0px;
 }
 
@@ -189,7 +189,7 @@ body {
 /*  HOME PAGE  */
 
 .main-container {
-  margin: 1em 10em 2em 12em;
+  margin: 0em 10em 2em 12em;
   padding: 0 2em 0 2em;
   border-radius: 20px;
   display: flex;
@@ -518,12 +518,6 @@ textarea {
 
 /* Mobile styles */
 @media screen and (max-width: 768px) {
-  .main-container {
-    margin: 0em 1em 2em 1em;
-    padding: 0 1em 0 1em;
-    border-radius: 20px;
-  }
-
   .menuLink {
     padding-bottom: 12px;
   }
