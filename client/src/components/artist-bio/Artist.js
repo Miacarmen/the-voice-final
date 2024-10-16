@@ -20,7 +20,7 @@ const Artist = () => {
             Petersburg, Russia in 1960. He was so kind and gracious to be
             willing to create the cover for{' '}
             <span id='book-highlight'>The Voice</span>, perfectly capturing the
-            vision. He imigrated to the U.S. decades ago and has lived and
+            vision. He immigrated to the U.S. decades ago and has lived and
             worked in Hunterdon County. His stunning work can be found
             represented across the country in many fine art galleries. You can
             see more of his beautiful work on his website{' '}
@@ -69,7 +69,7 @@ const Artist = () => {
             Petersburg, Russia in 1960. He was so kind and gracious to be
             willing to create the cover for{' '}
             <span id='book-highlight'>The Voice</span>, perfectly capturing the
-            vision. He imigrated to the U.S. decades ago and has lived and
+            vision. He immigrated to the U.S. decades ago and has lived and
             worked in Hunterdon County. His stunning work can be found
             represented across the country in many fine art galleries. You can
             see more of his beautiful work on his website{' '}
@@ -119,7 +119,7 @@ const Artist = () => {
               Petersburg, Russia in 1960. He was so kind and gracious to be
               willing to create the cover for{' '}
               <span id='book-highlight'>The Voice</span>, perfectly capturing
-              the vision. He imigrated to the U.S. decades ago and has lived and
+              the vision. He immigrated to the U.S. decades ago and has lived and
               worked in Hunterdon County. His stunning work can be found
               represented across the country in many fine art galleries. You can
               see more of his beautiful work on his website{' '}
