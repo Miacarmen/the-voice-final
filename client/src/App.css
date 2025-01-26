@@ -229,7 +229,7 @@ body {
 .cardSubtitle {
   font-size: 20px;
   font-weight: 700;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 .subtitle {
@@ -237,6 +237,7 @@ body {
   font-weight: 700;
   padding: 10px 0 10px 0;
   text-transform: uppercase;
+  /* font-family: 'Baskerville Medium'; */
 }
 
 .shop-Btn {
@@ -253,7 +254,8 @@ body {
 .book-back {
   font-size: 20px;
   color: #f8f8ff;
-  font-family: 'Baskerville Medium';
+  /* font-family: 'Baskerville Medium'; */
+  font-family: 'Fira Sans Medium';
 }
 
 .hero-highlight {
@@ -261,7 +263,7 @@ body {
   font-style: italic;
   font-family: 'Fira Sans Medium';
   color: #ffc757;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .download-link {
@@ -364,7 +366,7 @@ textarea {
   font-size: 30px;
   font-weight: 700;
   color: #ffc757;
-  padding-top: 1em;
+  padding: 1em 0 2em 0;
 }
 
 #video1 {
@@ -600,13 +602,18 @@ textarea {
   .testimonial-container {
     overflow: hidden;
     position: relative;
-    padding-bottom: 4em;
   }
 
   .testimonial-head {
     font-size: 22px;
     font-weight: 700;
     color: #ffc757;
+  }
+
+  iframe {
+    width: 392px;
+    height: 220px;
+    padding-bottom: 1em;
   }
 
   .footerHead {
