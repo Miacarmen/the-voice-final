@@ -35,7 +35,7 @@ const Testimonials = () => {
           allowFullScreen
         ></iframe>
       </div>
-      <div id='video3'>
+      {/* <div id='video3'>
         <iframe
           width='700'
           height='394'
@@ -45,7 +45,7 @@ const Testimonials = () => {
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
           allowFullScreen
         ></iframe>
-      </div>
+      </div> */}
       <div className='testimonial-container pt-8'>
         <h2 className='testimonial-head'>Book Testimonials</h2>
         <ReviewCard />
