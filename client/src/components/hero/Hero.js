@@ -13,13 +13,17 @@ const Hero = () => {
           <div className='book-content text-secondary'>
             <h1 className='cardTitle text-accent'>THE VOICE</h1>
             <h2 className='cardSubtitle'>
-                  Based on real people, actual events, and direct
-                  extraterrestrial contact
-                </h2>
+              Based on real people, actual events, and direct extraterrestrial
+              contact
+            </h2>
             <h3 className='subtitle'>Available Now on Amazon</h3>
-            <Link to='https://www.amazon.com/Voice-Journey-through-Eyes-Spirit/dp/0982578598/ref=sr_1_1?crid=1LK9ASSK76ZDP&keywords=the+voice+richard+carmen&qid=1706232501&s=books&sprefix=the+voice+richard+carmen%2Cstripbooks%2C141&sr=1-1'>
+            <a
+              href='https://www.amazon.com/Voice-Journey-through-Eyes-Spirit/dp/0982578598/ref=sr_1_1?crid=1LK9ASSK76ZDP&keywords=the+voice+richard+carmen&qid=1706232501&s=books&sprefix=the+voice+richard+carmen%2Cstripbooks%2C141&sr=1-1'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <button className='btn shopBtn bg-accent mb-9'>BUY NOW</button>
-            </Link>
+            </a>
 
             <figure className='m-5 bookImgContainer mobile-first'>
               <img
@@ -93,13 +97,17 @@ const Hero = () => {
           <div className='book-content text-secondary'>
             <h1 className='cardTitle text-accent'>THE VOICE</h1>
             <h2 className='cardSubtitle'>
-                  Based on real people, actual events, and direct
-                  extraterrestrial contact
-                </h2>
+              Based on real people, actual events, and direct extraterrestrial
+              contact
+            </h2>
             <h3 className='subtitle'>Available Now on Amazon</h3>
-            <Link to='https://www.amazon.com/Voice-Journey-through-Eyes-Spirit/dp/0982578598/ref=sr_1_1?crid=1LK9ASSK76ZDP&keywords=the+voice+richard+carmen&qid=1706232501&s=books&sprefix=the+voice+richard+carmen%2Cstripbooks%2C141&sr=1-1'>
-              <button className='btn shopBtn bg-accent'>BUY NOW</button>
-            </Link>
+            <a
+              href='https://www.amazon.com/Voice-Journey-through-Eyes-Spirit/dp/0982578598/ref=sr_1_1?crid=1LK9ASSK76ZDP&keywords=the+voice+richard+carmen&qid=1706232501&s=books&sprefix=the+voice+richard+carmen%2Cstripbooks%2C141&sr=1-1'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <button className='btn shopBtn bg-accent mb-9'>BUY NOW</button>
+            </a>
 
             <figure className='m-5 bookImgContainer mobile-first'>
               <img
@@ -186,11 +194,15 @@ const Hero = () => {
                   {/* <h2 className='cardTitle text-accent'>THE VOICE</h2>
                 <h3 className='cardSubtitle'>Based on real people, actual events, and direct extraterrestrial contact</h3> */}
                   <h3 className='subtitle'>Available Now on Amazon</h3>
-                  <Link to='https://www.amazon.com/Voice-Journey-through-Eyes-Spirit/dp/0982578598/ref=sr_1_1?crid=1LK9ASSK76ZDP&keywords=the+voice+richard+carmen&qid=1706232501&s=books&sprefix=the+voice+richard+carmen%2Cstripbooks%2C141&sr=1-1'>
+                  <a
+                    href='https://www.amazon.com/Voice-Journey-through-Eyes-Spirit/dp/0982578598/ref=sr_1_1?crid=1LK9ASSK76ZDP&keywords=the+voice+richard+carmen&qid=1706232501&s=books&sprefix=the+voice+richard+carmen%2Cstripbooks%2C141&sr=1-1'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <button className='btn shopBtn bg-accent mb-9'>
                       BUY NOW
                     </button>
-                  </Link>
+                  </a>
 
                   <div className='paragraph-container'>
                     <p className='book-back pb-5'>

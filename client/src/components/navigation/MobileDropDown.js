@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { FaInstagram } from 'react-icons/fa';
 import { FaSquareFacebook } from 'react-icons/fa6';
 import { FiMenu } from 'react-icons/fi';
-import { AiOutlineClose } from "react-icons/ai";
-
+import { AiOutlineClose } from 'react-icons/ai';
 
 const MobileDropDown = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -21,20 +20,6 @@ const MobileDropDown = () => {
   // const closeMenu = () => {
   //   setShowMenu(false);
   // };
-
-  const ZIP_URL = 'https://auriclebooks.com/The-Voice-Media-Kit.zip';
-
-  const handleDownload = () => {
-    const fileName = ZIP_URL.split('/').pop();
-    const aTag = document.createElement('a');
-    aTag.href = ZIP_URL;
-    aTag.setAttribute('download', fileName);
-    document.body.appendChild(aTag);
-    aTag.click();
-    aTag.remove();
-    console.log('downloaded', fileName);
-  };
-
 
   return (
     <div className='mobileNav'>
@@ -81,14 +66,14 @@ const MobileDropDown = () => {
             </li>
             <li>
               <NavLink
-                to='/testimonials'
-                id='testimonials'
+                to='/media'
+                id='media'
                 className={({ isActive }) =>
                   isActive ? 'menuLink-active' : 'menuLink'
                 }
                 onClick={() => setShowMenu(!showMenu)}
               >
-                Testimonials
+                MUFON
               </NavLink>
             </li>
 
@@ -103,22 +88,25 @@ const MobileDropDown = () => {
                 Contact
               </NavLink>
             </li>
-            <li>
-              <p className='mobileDownloadLink' onClick={handleDownload}>
-                Media Kit
-              </p>
-            </li>
           </ul>
           <div className='nav-social-icons'>
             <div className='mobile-fb-icon pr-1'>
-              <Link to='https://www.facebook.com/auriclebooks/'>
+              <a
+                href='https://www.facebook.com/auriclebooks/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <FaSquareFacebook />
-              </Link>
+              </a>
             </div>
             <div className='mobile-ig-icon pl-1'>
-              <Link to='https://www.instagram.com/auriclebooks/'>
+              <a
+                href='https://www.instagram.com/auriclebooks/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <FaInstagram />
-              </Link>
+              </a>
             </div>
           </div>
         </div>

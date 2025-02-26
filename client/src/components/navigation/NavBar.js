@@ -4,19 +4,6 @@ import { NavLink } from 'react-router-dom';
 // import { FaSquareFacebook } from "react-icons/fa6";
 
 const NavBar = () => {
-  const ZIP_URL = 'https://auriclebooks.com/The-Voice-Media-Kit.zip';
-
-  const handleDownload = () => {
-    const fileName = ZIP_URL.split('/').pop();
-    const aTag = document.createElement('a');
-    aTag.href = ZIP_URL;
-    aTag.setAttribute('download', fileName);
-    document.body.appendChild(aTag);
-    aTag.click();
-    aTag.remove();
-    console.log('downloaded', fileName);
-  };
-
   return (
     <div className='navbar'>
       <NavLink
@@ -47,15 +34,13 @@ const NavBar = () => {
           Other&nbsp;Books
         </NavLink> */}
       <NavLink
-        to='/testimonials'
-        id='testimonials'
+        to='/media'
+        id='media'
         className={({ isActive }) => (isActive ? 'navLink-active' : 'navLink')}
       >
-        Testimonials
+        Media
       </NavLink>
-      <p className='navLink' id='downloadLink' onClick={handleDownload}>
-        Media Kit
-      </p>
+
       <NavLink
         to='/contact'
         className={({ isActive }) => (isActive ? 'navLink-active' : 'navLink')}

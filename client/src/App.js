@@ -10,7 +10,7 @@ import Contact from './pages/Contact';
 import Author from './pages/Author';
 import ArtistBio from './pages/ArtistBio';
 import BookPreview from './pages/BookPreview';
-import Testimonials from './pages/Testimonials';
+import Media from './pages/Media';
 import NotFound from './pages/NotFound';
 import Footer from './components/footer/Footer';
 
@@ -38,7 +38,7 @@ function App() {
             <Route path='/contact' element={<Contact />} />
             <Route path='/artistbio' element={<ArtistBio />} />
             <Route path='/bookexcerpt' element={<BookPreview />} />
-            <Route path='/testimonials' element={<Testimonials />} />
+            <Route path='/media' element={<Media />} />
             <Route path='*' element={<NotFound />} />
           </Routes>
           <Footer />
