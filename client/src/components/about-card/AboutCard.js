@@ -14,17 +14,13 @@ const AboutCard = () => {
           <div className='about-content-mobile bg-base-100'>
             <div className='paragraph-container'>
               <p className='about-text'>
-                <span id='auricle'>Auricle Books</span> is a book publisher
-                dedicated to serving the general public. Readers will have a
-                special interest in the paranormal and their own unfolding
-                mindful spiritual quest. Specifically included in our titles
-                dealing with the paranormal will be Unidentified Aerial
-                Phenomena (vis a vis UFOs); direct extraterrestrial contact
-                experiences; religion; faith; and God. Our titles will initially
-                be written and/or edited by{' '}
-                <span id='authorName'>Dr. Richard E. Carmen</span>. Future
-                publications may include other writers, but at this time we are{' '}
-                <span id='not'>not</span> accepting unsolicited manuscripts.
+                <p className='py-4'>
+                  Auricle Books readers may have interest in the paranormal and
+                  may be searching for a better understanding of their own
+                  spiritual journey. This could include Unidentified Aerial
+                  Phenomena (aka UFOs); direct extraterrestrial contact
+                  experiences; religion; faith; and God.
+                </p>
                 <br />
                 <br />
                 <span className='about-closing-mobile'>Happy Journeying</span>
@@ -38,17 +34,13 @@ const AboutCard = () => {
           <div className='about-content-tablet bg-base-100'>
             <div className='paragraph-container'>
               <p className='about-text'>
-                <span id='auricle'>Auricle Books</span> is a book publisher
-                dedicated to serving the general public. Readers will have a
-                special interest in the paranormal and their own unfolding
-                mindful spiritual quest. Specifically included in our titles
-                dealing with the paranormal will be Unidentified Aerial
-                Phenomena (vis a vis UFOs); direct extraterrestrial contact
-                experiences; religion; faith; and God. Our titles will initially
-                be written and/or edited by{' '}
-                <span id='authorName'>Dr. Richard E. Carmen</span>. Future
-                publications may include other writers, but at this time we are{' '}
-                <span id='not'>not</span> accepting unsolicited manuscripts.
+                <p className='py-2'>
+                  Auricle Books readers may have interest in the paranormal and
+                  may be searching for a better understanding of their own
+                  spiritual journey. This could include Unidentified Aerial
+                  Phenomena (aka UFOs); direct extraterrestrial contact
+                  experiences; religion; faith; and God.
+                </p>
                 <br />
                 <br />
                 <span className='about-closing-mobile'>Happy Journeying</span>
@@ -62,17 +54,13 @@ const AboutCard = () => {
           <div className='main-container about-container'>
             <div className='about-content bg-base-100'>
               <p className='about-text'>
-                <span id='auricle'>Auricle Books</span> is a book publisher
-                dedicated to serving the general public. Readers will have a
-                special interest in the paranormal and their own unfolding
-                mindful spiritual quest. Specifically included in our titles
-                dealing with the paranormal will be Unidentified Aerial
-                Phenomena (vis a vis UFOs); direct extraterrestrial contact
-                experiences; religion; faith; and God. Our titles will initially
-                be written and/or edited by{' '}
-                <span id='authorName'>Dr. Richard E. Carmen</span>. Future
-                publications may include other writers, but at this time we are{' '}
-                <span id='not'>not</span> accepting unsolicited manuscripts.
+                <p className='py-3'>
+                  Auricle Books readers may have interest in the paranormal and
+                  may be searching for a better understanding of their own
+                  spiritual journey. This could include Unidentified Aerial
+                  Phenomena (aka UFOs); direct extraterrestrial contact
+                  experiences; religion; faith; and God.{' '}
+                </p>
               </p>
               <p className='about-closing'>Happy Journeying</p>
             </div>

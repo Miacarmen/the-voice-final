@@ -44,7 +44,7 @@ const Hero = () => {
 
             <div className='paragraph-container'>
               <p className='book-back pb-5'>
-                Richard E. Carmen is a well-published Doctor of Audiology. After
+                Dr. Richard E. Carmen is a well-published Doctor of Audiology. After
                 40 years of silence he{"'"}s stepping forward with an astounding{' '}
                 <span className='hero-highlight pl-1'>
                   {' '}
@@ -130,7 +130,7 @@ const Hero = () => {
 
             <div className='paragraph-container'>
               <p className='book-back pb-5'>
-                Richard E. Carmen is a well-published Doctor of Audiology. After
+                Dr. Richard E. Carmen is a well-published Doctor of Audiology. After
                 40 years of silence he{"'"}s stepping forward with an astounding{' '}
                 <span className='hero-highlight pl-1'>
                   {' '}
@@ -206,7 +206,7 @@ const Hero = () => {
 
                   <div className='paragraph-container'>
                     <p className='book-back pb-5'>
-                      Richard E. Carmen is a well-published Doctor of Audiology.
+                      Dr. Richard E. Carmen is a well-published Doctor of Audiology.
                       After 40 years of silence he{"'"}s stepping forward with
                       an astounding{' '}
                       <span className='hero-highlight pl-1'>

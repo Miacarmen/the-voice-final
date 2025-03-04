@@ -9,14 +9,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}
-
-#auricle {
-  font-weight: 700;
-  font-style: italic;
-  font-size: 30px;
-  color: #ffc757;
-  font-family: 'Poppins';
+  text-align: center;
 }
 
 #authorName {
@@ -52,10 +45,6 @@
     margin-bottom: 11em;
   }
 
-  #auricle {
-    font-size: 30px;
-  }
-
   .about-text {
     font-size: 24px;
   }
@@ -73,17 +62,14 @@
 @media screen and (max-width: 768px) {
   .about-content-mobile {
     opacity: 0.8;
-    text-align: center;
+    text-align: left;
     padding: 2em 1em 2em 1em;
     margin-bottom: 5em;
   }
 
-  #auricle {
-    font-size: 30px;
-  }
-
   .about-text {
     font-size: 20px;
+    text-align: left;
   }
 
   .about-closing-mobile {
