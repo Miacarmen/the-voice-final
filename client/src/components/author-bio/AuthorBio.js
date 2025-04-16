@@ -7,7 +7,7 @@ const AuthorBio = () => {
     <div>
       <p className='author-text'>
         <span id='author-name' className='pr-1'>
-          Richard E. Carmen
+          Dr. Richard E. Carmen
         </span>{' '}
         holds three academic degrees in mainstream science with a Doctor of
         Audiology (Au.D) from the Arizona School of Health Sciences, a Division of the Kirksville College of Osteopathic Medicine.
