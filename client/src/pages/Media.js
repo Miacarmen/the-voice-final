@@ -17,7 +17,7 @@ const Media = () => {
 
   return (
     <div className='media-container'>
-      <h2 className='media-head'>MUFON Presentation by Dr Richard Carmen</h2>
+      {/* <h2 className='media-head'>MUFON Presentation by Dr Richard Carmen</h2>
       <div id='m-pres-video'>
         <iframe
           width='700'
@@ -27,7 +27,7 @@ const Media = () => {
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
           allowFullScreen
         ></iframe>
-      </div>
+      </div> */}
       <div className='media-kit'>
         <button className='btn media-kit-btn bg-accent' onClick={handleDownload}>
           Download Media Kit
